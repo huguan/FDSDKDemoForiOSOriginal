@@ -1,0 +1,6 @@
+framework module GameCatSDK {
+  umbrella header "GameCatSDK.h"
+
+  export *
+  module * { export * }
+}
