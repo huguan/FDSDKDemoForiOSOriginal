@@ -104,7 +104,7 @@
     //在Info.plist中填写相关参数
     
     //根据Type初始化不同的SDK
-    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDHGPlatform];
+    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDMKPlatform];
     [[FDSDK sharedInstance] fdInitWithSDKParameters:[FDSDKParameters sharedHGSDKParameters]];
     
     [[FDSDK sharedInstance] fdApplication:application didFinishLaunchingWithOptions:launchOptions];
