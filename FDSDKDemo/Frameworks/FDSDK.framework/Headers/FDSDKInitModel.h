@@ -116,6 +116,12 @@
  *  29游subChannelId
  */
 @property(nonatomic, strong) NSString *subChannelId;
+
+/**
+ *  29游 爱贝appid
+ */
+@property(nonatomic, strong) NSString *abAppId;
+
 @end
 
 @interface FDMKSDKInitModel : NSObject

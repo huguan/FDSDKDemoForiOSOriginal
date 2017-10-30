@@ -22,16 +22,21 @@
     [self.window makeKeyAndVisible];
     
     //设置聚合参数
-    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"50"];
-    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"ea718a559b4a825e5481afc695ee2abb"];
+    // 通用SDK聚合参数
+//    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"50"];
+//    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"ea718a559b4a825e5481afc695ee2abb"];
     
-    // 互冠-风云传说
+    // 互冠SDK
     //    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"129"];
     //    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"b4a4a084589802ee8ed7e0af75afda32"];
     
-    // 悠扬-刀刀屠龙
+    // 悠扬SDK
     //    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"171"];
     //    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"f879050c41043623c54e3d6eec269aac"];
+    
+    // 29游SDK
+    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"162"];
+    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"fd98c4cf15be3e2f508c3c1315c25b8c"];
     
     [[FDSDKParameters sharedHGSDKParameters] setLogData:NO];
     [[FDSDKParameters sharedHGSDKParameters] setDebug:NO];
@@ -51,6 +56,7 @@
     [eySDKInitModel setAppId:@"1086"];
     [eySDKInitModel setAppKey:@"4ef167e7ff94ab4dde018e"];
     [eySDKInitModel setSubChannelId:@"10020370"];
+    [eySDKInitModel setAbAppId:@"301508258"];
     [[FDSDKParameters sharedHGSDKParameters] setEySDKInitModel:eySDKInitModel];
     
     //设置奇天SDK参数
@@ -104,7 +110,7 @@
     //在Info.plist中填写相关参数
     
     //根据Type初始化不同的SDK
-    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDMKPlatform];
+    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDEYPlatform];
     [[FDSDK sharedInstance] fdInitWithSDKParameters:[FDSDKParameters sharedHGSDKParameters]];
     
     [[FDSDK sharedInstance] fdApplication:application didFinishLaunchingWithOptions:launchOptions];

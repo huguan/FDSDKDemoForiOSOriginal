@@ -106,7 +106,7 @@
     [payParamsModel setRoleId:@"001"];
     [payParamsModel setRoleName:@"GG20思密达"];
     [payParamsModel setOrderId:[self getOrderStringByTime]];
-    [payParamsModel setProductId:@"com.paodaozhicuan.lyft.zs60"];
+    [payParamsModel setProductId:@"com.gsby.600|1"];
     [payParamsModel setProductName:@"元宝"];
     [payParamsModel setProductDesc:@"花费6人民币购买600元宝"];
     [payParamsModel setExtension:@"Test_extension"];
