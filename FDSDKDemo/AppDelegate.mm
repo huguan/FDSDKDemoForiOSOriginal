@@ -23,8 +23,8 @@
     
     //设置聚合参数
     // 通用SDK聚合参数
-//    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"50"];
-//    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"ea718a559b4a825e5481afc695ee2abb"];
+    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"50"];
+    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"ea718a559b4a825e5481afc695ee2abb"];
     
     // 互冠SDK
     //    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"129"];
@@ -35,8 +35,8 @@
     //    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"f879050c41043623c54e3d6eec269aac"];
     
     // 29游SDK
-    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"162"];
-    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"fd98c4cf15be3e2f508c3c1315c25b8c"];
+//    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"162"];
+//    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"fd98c4cf15be3e2f508c3c1315c25b8c"];
     
     [[FDSDKParameters sharedHGSDKParameters] setLogData:NO];
     [[FDSDKParameters sharedHGSDKParameters] setDebug:NO];
@@ -109,8 +109,17 @@
     //设置数果SDK参数
     //在Info.plist中填写相关参数
     
+    // 设置雪糕SDK参数
+    FDXGSDKInitModel *xgSDKInitModel = [FDXGSDKInitModel new];
+    xgSDKInitModel.xgChannel = @"zfdz";
+    xgSDKInitModel.xgAppid = @"10187";
+    xgSDKInitModel.xgKey = @"JoC2aJ0vH1XUs9kSKQFtZ3TY8ME2GacS";
+    xgSDKInitModel.xgVersion = @"1.0.0";
+    [[FDSDKParameters sharedHGSDKParameters] setXgSDKInitModel:xgSDKInitModel];
+    
+    
     //根据Type初始化不同的SDK
-    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDEYPlatform];
+    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDXGPlatform];
     [[FDSDK sharedInstance] fdInitWithSDKParameters:[FDSDKParameters sharedHGSDKParameters]];
     
     [[FDSDK sharedInstance] fdApplication:application didFinishLaunchingWithOptions:launchOptions];

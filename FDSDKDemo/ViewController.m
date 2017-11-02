@@ -56,7 +56,7 @@
     [centerButton addTarget:self action:@selector(centerButtonClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:centerButton];
     
-    [[FDSDK sharedInstance] setFdLogoutBlock:^{
+    [[FDSDK sharedInstance] setFdLogoutBlock:^(FDNormalResultModel *result){
         NSLog(@"注销回调");
     }];
     
@@ -99,7 +99,7 @@
 
 - (void)payButtonClick {
     FDPayParamsModel *payParamsModel = [FDPayParamsModel new];
-    [payParamsModel setPrice:1];
+    [payParamsModel setPrice:6];
     [payParamsModel setProductNumber:1];
     [payParamsModel setServerId:@"1"];
     [payParamsModel setServerName:@"蜀山传奇"];
@@ -108,6 +108,7 @@
     [payParamsModel setOrderId:[self getOrderStringByTime]];
     [payParamsModel setProductId:@"com.gsby.600|1"];
     [payParamsModel setProductName:@"元宝"];
+    [payParamsModel setMappingId:@"0"];
     [payParamsModel setProductDesc:@"花费6人民币购买600元宝"];
     [payParamsModel setExtension:@"Test_extension"];
     [[FDSDK sharedInstance] fdPay:payParamsModel complete:^(FDPayResultCode payResultCode) {

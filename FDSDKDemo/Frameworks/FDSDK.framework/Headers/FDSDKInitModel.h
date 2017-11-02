@@ -171,8 +171,29 @@
 
 // 游戏猫 chlId
 @property(nonatomic, copy) NSString *yxmChlID;
-
 @end
+
+
+/**
+ *   雪糕SDK初始化参数对象
+ */
+@interface FDXGSDKInitModel : NSObject
+
+// 雪糕 xgChannel
+@property(nonatomic, copy) NSString *xgChannel;
+
+// 雪糕 xgAppid
+@property(nonatomic, copy) NSString *xgAppid;
+
+// 雪糕 xgKey
+@property(nonatomic, copy) NSString *xgKey;
+
+// 雪糕 xgVersion
+@property(nonatomic, copy) NSString *xgVersion;
+@end
+
+
+
 
 
 

@@ -62,6 +62,11 @@
 @property (nonatomic, strong) NSString *serverName;
 
 /**
+ *   档位
+ */
+@property(nonatomic, strong) NSString *mappingId;
+
+/**
  *  拓展参数
  */
 @property (nonatomic, strong) NSString *extension;

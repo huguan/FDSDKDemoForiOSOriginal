@@ -15,6 +15,7 @@
 #import "FDSDKInitModel.h"
 #import "FDUserModel.h"
 #import "FDRoleModel.h"
+#import "FDNormalResultModel.h"
 
 //! Project version number for FDSDK.
 FOUNDATION_EXPORT double FDSDKVersionNumber;
@@ -50,7 +51,7 @@ typedef NS_ENUM(NSInteger, FDPayResultCode) {
 
 
 typedef void (^fdLoginSuccessBlock)(FDUserModel *userModel);
-typedef void (^fdLogoutBlock)();
+typedef void (^fdLogoutBlock)(FDNormalResultModel *result);
 typedef void (^fdPayBlock)(FDPayResultCode payResultCode);
 
 

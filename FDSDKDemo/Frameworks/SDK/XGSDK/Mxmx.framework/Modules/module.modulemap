@@ -1,0 +1,6 @@
+framework module Mxmx {
+  umbrella header "Mxmx.h"
+
+  export *
+  module * { export * }
+}
