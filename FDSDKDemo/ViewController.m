@@ -73,10 +73,6 @@
         
         //上传角色信息
         FDRoleModel *roleModel = [FDRoleModel new];
-        
-        // 模拟玩家进入游戏事件
-        [roleModel setFdDataType:FD_EXTRADATA_TYPE_ENTER_GAME];
-        
         [roleModel setRoleName:@"GG20思密达"];
         [roleModel setRoleLever:999];
         [roleModel setRoleMoney:10000];
@@ -85,6 +81,14 @@
         [roleModel setServerId:@"1"];
         [roleModel setPayLevel:@"v15"];
         [roleModel setExtar:@"扩展信息"];
+        [roleModel setSpeciallySuit:@"0"];
+        
+        // 模拟玩家创建角色事件
+        [roleModel setFdDataType:FD_EXTRADATA_TYPE_CREATE_ROLE];
+        [[FDSDK sharedInstance] updateRoleInfo:roleModel];
+        
+        // 模拟玩家进入游戏事件
+        [roleModel setFdDataType:FD_EXTRADATA_TYPE_ENTER_GAME];
         [[FDSDK sharedInstance] updateRoleInfo:roleModel];
     }];
 }
@@ -101,12 +105,13 @@
     FDPayParamsModel *payParamsModel = [FDPayParamsModel new];
     [payParamsModel setPrice:6];
     [payParamsModel setProductNumber:1];
+    [payParamsModel setProductCount:60];
     [payParamsModel setServerId:@"1"];
     [payParamsModel setServerName:@"蜀山传奇"];
     [payParamsModel setRoleId:@"001"];
     [payParamsModel setRoleName:@"GG20思密达"];
     [payParamsModel setOrderId:[self getOrderStringByTime]];
-    [payParamsModel setProductId:@"com.gsby.600|1"];
+    [payParamsModel setProductId:@"hazmsj.6"];
     [payParamsModel setProductName:@"元宝"];
     [payParamsModel setMappingId:@"0"];
     [payParamsModel setProductDesc:@"花费6人民币购买600元宝"];

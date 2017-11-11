@@ -36,10 +36,16 @@
  */
 @property (nonatomic, strong) NSString *productDesc;
 
+/** 举例：使用6元人民币购买了60钻石的档位，其中商品份量为1份，商品数量为60个（钻石） **/
 /**
- *  商品数量(一般为1)
+ *  商品份量(一般为1)
  */
 @property (nonatomic) int productNumber;
+
+/**
+ *  商品数量(一般为支付金额 * 兑换比)
+ */
+@property (nonatomic) int productCount;
 
 /**
  *  角色标识
@@ -74,6 +80,5 @@
 @property (nonatomic, strong) NSString *sign;
 
 - (NSString *)getSignWithDictory:(NSDictionary *)dictionary;
-
 
 @end

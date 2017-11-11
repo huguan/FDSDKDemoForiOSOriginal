@@ -38,6 +38,10 @@
 //    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"162"];
 //    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"fd98c4cf15be3e2f508c3c1315c25b8c"];
     
+    // 麟游SDK
+    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"195"];
+    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"b3e992cca99a85da24e2821a89778b6b"];
+    
     [[FDSDKParameters sharedHGSDKParameters] setLogData:NO];
     [[FDSDKParameters sharedHGSDKParameters] setDebug:NO];
     
@@ -78,8 +82,8 @@
     
     //设置麟游SDK参数
     FDLySDKInitModel *lySDKInitModel = [FDLySDKInitModel new];
-    [lySDKInitModel setProductId:@"lyftios"];
-    [lySDKInitModel setLinnyouKey:@"996b6b37aa4473c5"];
+    [lySDKInitModel setProductId:@"hazmios"];
+    [lySDKInitModel setLinnyouKey:@"f642ab59b1ce042f"];
     [[FDSDKParameters sharedHGSDKParameters] setLySDKInitModel:lySDKInitModel];
     
     //设置94玩SDK参数
@@ -119,7 +123,7 @@
     
     
     //根据Type初始化不同的SDK
-    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDXGPlatform];
+    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDLYPlatform];
     [[FDSDK sharedInstance] fdInitWithSDKParameters:[FDSDKParameters sharedHGSDKParameters]];
     
     [[FDSDK sharedInstance] fdApplication:application didFinishLaunchingWithOptions:launchOptions];

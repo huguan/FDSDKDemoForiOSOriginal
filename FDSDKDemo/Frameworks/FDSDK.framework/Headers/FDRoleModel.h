@@ -15,6 +15,7 @@ typedef NS_ENUM(NSInteger, FD_ExtraDataType)
     FD_EXTRADATA_TYPE_SELECT_SERVER = 1,    // 选择服务器
     FD_EXTRADATA_TYPE_CREATE_ROLE,  // 创建角色
     FD_EXTRADATA_TYPE_ENTER_GAME,   // 进入游戏
+    FD_EXTRADATA_TYPE_CHANGE_ROLE_NAME,   // 更改角色名字
     FD_EXTRADATA_TYPE_LEVEL_UP, // 等级提升
     FD_EXTRADATA_TYPE_EXIT_GAME,    // 退出游戏
 };
@@ -58,6 +59,10 @@ typedef NS_ENUM(NSInteger, FD_ExtraDataType)
  */
 @property (nonatomic, assign) int roleMoney;
 
+/**
+ 是否是专服（是传@“1”，否传@“0”，默认为@"0"）
+ */
+@property (nonatomic, copy) NSString *speciallySuit;
 
 /**
  *  扩展信息 可不传
