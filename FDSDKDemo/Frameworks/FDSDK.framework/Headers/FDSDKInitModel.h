@@ -173,7 +173,6 @@
 @property(nonatomic, copy) NSString *yxmChlID;
 @end
 
-
 /**
  *   雪糕SDK初始化参数对象
  */
@@ -190,10 +189,19 @@
 
 // 雪糕 xgVersion
 @property(nonatomic, copy) NSString *xgVersion;
+
 @end
 
 
+/**
+ *   指尖SDK初始化参数对象
+ */
+@interface FDZhiJianSDKInitModel : NSObject
 
+// 指尖渠道码
+@property(nonatomic, copy) NSString *zhiJianCompany;
+
+@end
 
 
 

@@ -39,8 +39,8 @@
 //    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"fd98c4cf15be3e2f508c3c1315c25b8c"];
     
     // 麟游SDK
-    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"195"];
-    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"b3e992cca99a85da24e2821a89778b6b"];
+//    [[FDSDKParameters sharedHGSDKParameters] setAppId:@"195"];
+//    [[FDSDKParameters sharedHGSDKParameters] setAppKey:@"b3e992cca99a85da24e2821a89778b6b"];
     
     [[FDSDKParameters sharedHGSDKParameters] setLogData:NO];
     [[FDSDKParameters sharedHGSDKParameters] setDebug:NO];
@@ -121,9 +121,13 @@
     xgSDKInitModel.xgVersion = @"1.0.0";
     [[FDSDKParameters sharedHGSDKParameters] setXgSDKInitModel:xgSDKInitModel];
     
+    // 设置指尖SDK初始化参数
+    FDZhiJianSDKInitModel *zhiJianInitModel = [FDZhiJianSDKInitModel new];
+    zhiJianInitModel.zhiJianCompany = @"huguancylc";
+    [[FDSDKParameters sharedHGSDKParameters] setZhiJianSDKInitModel:zhiJianInitModel];
     
     //根据Type初始化不同的SDK
-    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDLYPlatform];
+    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDZhiJianPlatform];
     [[FDSDK sharedInstance] fdInitWithSDKParameters:[FDSDKParameters sharedHGSDKParameters]];
     
     [[FDSDK sharedInstance] fdApplication:application didFinishLaunchingWithOptions:launchOptions];

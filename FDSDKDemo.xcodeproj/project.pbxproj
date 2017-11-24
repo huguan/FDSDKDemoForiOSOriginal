@@ -49,6 +49,23 @@
 		14A107DE1E2DC06F00458FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A107DC1E2DC06F00458FDA /* Main.storyboard */; };
 		14A107E01E2DC06F00458FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A107DF1E2DC06F00458FDA /* Assets.xcassets */; };
 		14A107E31E2DC06F00458FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A107E11E2DC06F00458FDA /* LaunchScreen.storyboard */; };
+		8F0122B91FC80BED00A0665D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D71E2DC06F00458FDA /* AppDelegate.mm */; };
+		8F0122BA1FC80BED00A0665D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107DA1E2DC06F00458FDA /* ViewController.m */; };
+		8F0122BB1FC80BED00A0665D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D41E2DC06F00458FDA /* main.m */; };
+		8F0122BC1FC80BFC00A0665D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A107DC1E2DC06F00458FDA /* Main.storyboard */; };
+		8F0122BD1FC80BFC00A0665D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A107DF1E2DC06F00458FDA /* Assets.xcassets */; };
+		8F0122BE1FC80BFC00A0665D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A107E11E2DC06F00458FDA /* LaunchScreen.storyboard */; };
+		8F0122BF1FC80C0400A0665D /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C09F11B1FAB3B84004CF4F1 /* FDSDK.framework */; };
+		8F0122C01FC80C0400A0665D /* FDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C09F11B1FAB3B84004CF4F1 /* FDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F0122C51FC80C6F00A0665D /* FingerTipSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F0122C31FC80C6F00A0665D /* FingerTipSDK.bundle */; };
+		8F0122C61FC80C6F00A0665D /* FingerTipSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0122C41FC80C6F00A0665D /* FingerTipSDK.framework */; };
+		8F0122C71FC80CA200A0665D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC231E3061BF0082BA72 /* libz.tbd */; };
+		8F0122C81FC80CAF00A0665D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8445A91FA0339A00746ACB /* libsqlite3.0.tbd */; };
+		8F0122C91FC80CCB00A0665D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC1D1E30606D0082BA72 /* libc++.tbd */; };
+		8F0122CA1FC80CD000A0665D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC1B1E30603F0082BA72 /* Security.framework */; };
+		8F0122CB1FC80CD500A0665D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC0F1E3060220082BA72 /* CoreTelephony.framework */; };
+		8F0122CC1FC80CDB00A0665D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC191E30603B0082BA72 /* CFNetwork.framework */; };
+		8F0122CD1FC80DEF00A0665D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC171E3060370082BA72 /* SystemConfiguration.framework */; };
 		8F1366611FA7544C005AEE9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D71E2DC06F00458FDA /* AppDelegate.mm */; };
 		8F1366621FA7544C005AEE9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107DA1E2DC06F00458FDA /* ViewController.m */; };
 		8F1366631FA7544C005AEE9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D41E2DC06F00458FDA /* main.m */; };
@@ -230,6 +247,17 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F0122C11FC80C0400A0665D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8F0122C01FC80C0400A0665D /* FDSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F1366701FA75585005AEE9A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,6 +381,10 @@
 		14A107DF1E2DC06F00458FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14A107E21E2DC06F00458FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14A107E41E2DC06F00458FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0122A21FC80BC300A0665D /* FDZhiJianSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDZhiJianSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0122B51FC80BC400A0665D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0122C31FC80C6F00A0665D /* FingerTipSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FingerTipSDK.bundle; sourceTree = "<group>"; };
+		8F0122C41FC80C6F00A0665D /* FingerTipSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FingerTipSDK.framework; sourceTree = "<group>"; };
 		8F13664B1FA7541A005AEE9A /* FDEYSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDEYSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F13665B1FA7541B005AEE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F1366721FA75675005AEE9A /* ejsdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ejsdk.bundle; sourceTree = "<group>"; };
@@ -512,6 +544,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F01229F1FC80BC300A0665D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0122CD1FC80DEF00A0665D /* SystemConfiguration.framework in Frameworks */,
+				8F0122CC1FC80CDB00A0665D /* CFNetwork.framework in Frameworks */,
+				8F0122CB1FC80CD500A0665D /* CoreTelephony.framework in Frameworks */,
+				8F0122CA1FC80CD000A0665D /* Security.framework in Frameworks */,
+				8F0122C91FC80CCB00A0665D /* libc++.tbd in Frameworks */,
+				8F0122C81FC80CAF00A0665D /* libsqlite3.0.tbd in Frameworks */,
+				8F0122C71FC80CA200A0665D /* libz.tbd in Frameworks */,
+				8F0122C61FC80C6F00A0665D /* FingerTipSDK.framework in Frameworks */,
+				8F0122BF1FC80C0400A0665D /* FDSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F1366481FA7541A005AEE9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -663,6 +711,7 @@
 		1446ABF61E305F520082BA72 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				8F0122C21FC80C6F00A0665D /* ZhiJianSDK */,
 				8FAB80431FB692C200076DF0 /* LYSDK */,
 				0CA609631FAB0B61000E8A38 /* XGSDK */,
 				8F1366711FA75675005AEE9A /* EYSDK */,
@@ -679,6 +728,8 @@
 		14A107C71E2DC06F00458FDA = {
 			isa = PBXGroup;
 			children = (
+				14A107D21E2DC06F00458FDA /* FDSDKDemo */,
+				8F0122A31FC80BC400A0665D /* FDZhiJianSDKDemo */,
 				8F42F79F1F9F3D4300283FC6 /* FDYXMSDKDemo */,
 				8F42F84D1F9F443700283FC6 /* FDSGSDKDemo */,
 				8F8445831FA0326C00746ACB /* FDQTSDKDemo */,
@@ -689,7 +740,6 @@
 				0CD141C61FAB14A000C4E4C7 /* FDXGSDKDemo */,
 				8FAB80271FB6924A00076DF0 /* FDLYSDKDemo */,
 				14A107EA1E2DC09200458FDA /* Frameworks */,
-				14A107D21E2DC06F00458FDA /* FDSDKDemo */,
 				14A107D11E2DC06F00458FDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -707,6 +757,7 @@
 				8F13664B1FA7541A005AEE9A /* FDEYSDKDemo.app */,
 				0CD141C51FAB14A000C4E4C7 /* FDXGSDKDemo.app */,
 				8FAB80261FB6924A00076DF0 /* FDLYSDKDemo.app */,
+				8F0122A21FC80BC300A0665D /* FDZhiJianSDKDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -775,6 +826,23 @@
 			);
 			name = Frameworks;
 			path = FDSDKDemo/Frameworks;
+			sourceTree = "<group>";
+		};
+		8F0122A31FC80BC400A0665D /* FDZhiJianSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F0122B51FC80BC400A0665D /* Info.plist */,
+			);
+			path = FDZhiJianSDKDemo;
+			sourceTree = "<group>";
+		};
+		8F0122C21FC80C6F00A0665D /* ZhiJianSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8F0122C31FC80C6F00A0665D /* FingerTipSDK.bundle */,
+				8F0122C41FC80C6F00A0665D /* FingerTipSDK.framework */,
+			);
+			path = ZhiJianSDK;
 			sourceTree = "<group>";
 		};
 		8F13664C1FA7541B005AEE9A /* FDEYSDKDemo */ = {
@@ -1124,6 +1192,24 @@
 			productReference = 14A107D01E2DC06F00458FDA /* FDSDKDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8F0122A11FC80BC300A0665D /* FDZhiJianSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0122B81FC80BC400A0665D /* Build configuration list for PBXNativeTarget "FDZhiJianSDKDemo" */;
+			buildPhases = (
+				8F01229E1FC80BC300A0665D /* Sources */,
+				8F01229F1FC80BC300A0665D /* Frameworks */,
+				8F0122A01FC80BC300A0665D /* Resources */,
+				8F0122C11FC80C0400A0665D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDZhiJianSDKDemo;
+			productName = FDZhiJianSDKDemo;
+			productReference = 8F0122A21FC80BC300A0665D /* FDZhiJianSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8F13664A1FA7541A005AEE9A /* FDEYSDKDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F1366601FA7541B005AEE9A /* Build configuration list for PBXNativeTarget "FDEYSDKDemo" */;
@@ -1288,6 +1374,11 @@
 						DevelopmentTeam = KS98J4RYQ2;
 						ProvisioningStyle = Automatic;
 					};
+					8F0122A11FC80BC300A0665D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4CXZ3ZU9TD;
+						ProvisioningStyle = Manual;
+					};
 					8F13664A1FA7541A005AEE9A = {
 						CreatedOnToolsVersion = 9.0.1;
 						DevelopmentTeam = ZY23FCWC2K;
@@ -1366,6 +1457,7 @@
 				8F13664A1FA7541A005AEE9A /* FDEYSDKDemo */,
 				0CD141C41FAB14A000C4E4C7 /* FDXGSDKDemo */,
 				8FAB80251FB6924A00076DF0 /* FDLYSDKDemo */,
+				8F0122A11FC80BC300A0665D /* FDZhiJianSDKDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -1389,6 +1481,17 @@
 				14A107E31E2DC06F00458FDA /* LaunchScreen.storyboard in Resources */,
 				14A107E01E2DC06F00458FDA /* Assets.xcassets in Resources */,
 				14A107DE1E2DC06F00458FDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0122A01FC80BC300A0665D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0122BC1FC80BFC00A0665D /* Main.storyboard in Resources */,
+				8F0122C51FC80C6F00A0665D /* FingerTipSDK.bundle in Resources */,
+				8F0122BD1FC80BFC00A0665D /* Assets.xcassets in Resources */,
+				8F0122BE1FC80BFC00A0665D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1519,6 +1622,16 @@
 				14A107DB1E2DC06F00458FDA /* ViewController.m in Sources */,
 				14A107D81E2DC06F00458FDA /* AppDelegate.mm in Sources */,
 				14A107D51E2DC06F00458FDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F01229E1FC80BC300A0665D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0122B91FC80BED00A0665D /* AppDelegate.mm in Sources */,
+				8F0122BA1FC80BED00A0665D /* ViewController.m in Sources */,
+				8F0122BB1FC80BED00A0665D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1868,6 +1981,58 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		8F0122B61FC80BC400A0665D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 4CXZ3ZU9TD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/ZhiJianSDK",
+				);
+				INFOPLIST_FILE = FDZhiJianSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zl.sc.zb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f322c63c-6b84-41df-89ef-764da33041d6";
+				PROVISIONING_PROFILE_SPECIFIER = zl_dev;
+			};
+			name = Debug;
+		};
+		8F0122B71FC80BC400A0665D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = 4CXZ3ZU9TD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/ZhiJianSDK",
+				);
+				INFOPLIST_FILE = FDZhiJianSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zl.sc.zb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f322c63c-6b84-41df-89ef-764da33041d6";
+				PROVISIONING_PROFILE_SPECIFIER = zl_dev;
 			};
 			name = Release;
 		};
@@ -2368,6 +2533,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8F0122B81FC80BC400A0665D /* Build configuration list for PBXNativeTarget "FDZhiJianSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0122B61FC80BC400A0665D /* Debug */,
+				8F0122B71FC80BC400A0665D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		8F1366601FA7541B005AEE9A /* Build configuration list for PBXNativeTarget "FDEYSDKDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2438,6 +2611,7 @@
 				8FAB803B1FB6924A00076DF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

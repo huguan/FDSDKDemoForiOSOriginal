@@ -111,7 +111,7 @@
     [payParamsModel setRoleId:@"001"];
     [payParamsModel setRoleName:@"GG20思密达"];
     [payParamsModel setOrderId:[self getOrderStringByTime]];
-    [payParamsModel setProductId:@"hazmsj.6"];
+    [payParamsModel setProductId:@"cyzlsczb.cy.600"];
     [payParamsModel setProductName:@"元宝"];
     [payParamsModel setMappingId:@"0"];
     [payParamsModel setProductDesc:@"花费6人民币购买600元宝"];

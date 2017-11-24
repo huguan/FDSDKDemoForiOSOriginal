@@ -1,0 +1,6 @@
+framework module FingerTipSDK {
+  umbrella header "FingerTipSDK.h"
+
+  export *
+  module * { export * }
+}
