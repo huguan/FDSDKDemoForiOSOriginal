@@ -22,11 +22,11 @@
 		</data>
 		<key>Headers/FDSDKInitModel.h</key>
 		<data>
-		1MYDzcQkDT8q0W7yPus3JC7P5hM=
+		A21xnjUWIrhuy6wilfQKnkGp8MI=
 		</data>
 		<key>Headers/FDSDKParameters.h</key>
 		<data>
-		Mu1CEVssRuUUW7zmOQtjLM9KnYE=
+		RQwDB2CMqEsCuv8hcOG2y/11tGg=
 		</data>
 		<key>Headers/FDUserModel.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kYJi3yqhm8BpFhPUSm6V4UxXbwk=
+		2lEBhM+2wX1yQC60JTaeVctthlw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -91,22 +91,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1MYDzcQkDT8q0W7yPus3JC7P5hM=
+			A21xnjUWIrhuy6wilfQKnkGp8MI=
 			</data>
 			<key>hash2</key>
 			<data>
-			aiuPxgj1CT4LRgVNeQfonn18MQsVs+EO0VwzZdyBTx8=
+			rBuXkoEZCnWwFule4zP60wSLWGe8T7iGOZZy7ynlc+8=
 			</data>
 		</dict>
 		<key>Headers/FDSDKParameters.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Mu1CEVssRuUUW7zmOQtjLM9KnYE=
+			RQwDB2CMqEsCuv8hcOG2y/11tGg=
 			</data>
 			<key>hash2</key>
 			<data>
-			alwy52jmFpCYEIbJyCelESzU7kvQDhyH15mkJT/UHpg=
+			/h/3na5JFS1ykfskEnDBwKMHFnpQu5x1jYhj4q9ouwg=
 			</data>
 		</dict>
 		<key>Headers/FDUserModel.h</key>

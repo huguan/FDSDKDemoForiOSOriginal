@@ -122,12 +122,12 @@
     [[FDSDKParameters sharedHGSDKParameters] setXgSDKInitModel:xgSDKInitModel];
     
     // 设置指尖SDK初始化参数
-    FDZhiJianSDKInitModel *zhiJianInitModel = [FDZhiJianSDKInitModel new];
-    zhiJianInitModel.zhiJianCompany = @"huguancylc";
-    [[FDSDKParameters sharedHGSDKParameters] setZhiJianSDKInitModel:zhiJianInitModel];
+//    FDZhiJianSDKInitModel *zhiJianInitModel = [FDZhiJianSDKInitModel new];
+//    zhiJianInitModel.zhiJianCompany = @"huguancylc";
+//    [[FDSDKParameters sharedHGSDKParameters] setZhiJianSDKInitModel:zhiJianInitModel];
     
     //根据Type初始化不同的SDK
-    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDZhiJianPlatform];
+    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDWoAiWanPlatform];
     [[FDSDK sharedInstance] fdInitWithSDKParameters:[FDSDKParameters sharedHGSDKParameters]];
     
     [[FDSDK sharedInstance] fdApplication:application didFinishLaunchingWithOptions:launchOptions];
