@@ -1,0 +1,6 @@
+framework module GQJBPlatform {
+  umbrella header "GQJBPlatform.h"
+
+  export *
+  module * { export * }
+}

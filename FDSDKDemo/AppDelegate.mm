@@ -121,13 +121,20 @@
     xgSDKInitModel.xgVersion = @"1.0.0";
     [[FDSDKParameters sharedHGSDKParameters] setXgSDKInitModel:xgSDKInitModel];
     
+    // 设置创星SDK参数
+    FDChuangXingInitModel *chuangXingInitModel =  [FDChuangXingInitModel new];
+    chuangXingInitModel.appId = @"219";
+    chuangXingInitModel.appKey = @"b0d0bd1f96528044b0751ca54b1cff58";
+    [[FDSDKParameters sharedHGSDKParameters] setChuangXingSDKInitModel:chuangXingInitModel];
+
+    
     // 设置指尖SDK初始化参数
 //    FDZhiJianSDKInitModel *zhiJianInitModel = [FDZhiJianSDKInitModel new];
 //    zhiJianInitModel.zhiJianCompany = @"huguancylc";
 //    [[FDSDKParameters sharedHGSDKParameters] setZhiJianSDKInitModel:zhiJianInitModel];
     
     //根据Type初始化不同的SDK
-    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDWoAiWanPlatform];
+    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDChuangXingPlatform];
     [[FDSDK sharedInstance] fdInitWithSDKParameters:[FDSDKParameters sharedHGSDKParameters]];
     
     [[FDSDK sharedInstance] fdApplication:application didFinishLaunchingWithOptions:launchOptions];

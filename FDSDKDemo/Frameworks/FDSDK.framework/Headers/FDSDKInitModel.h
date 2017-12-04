@@ -190,6 +190,21 @@
 
 // 雪糕 xgVersion
 @property(nonatomic, copy) NSString *xgVersion;
+
+@end
+
+
+/**
+ *   创星SDK初始化参数对象
+ */
+@interface FDChuangXingInitModel : NSObject
+
+// appid
+@property(nonatomic, copy) NSString *appId;
+
+// appKey
+@property(nonatomic, copy) NSString *appKey;
+
 @end
 
 

@@ -13,26 +13,47 @@
 		0C11A8D31FC9071900F40C6C /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D71E2DC06F00458FDA /* AppDelegate.mm */; };
 		0C11A8D41FC9071900F40C6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107DA1E2DC06F00458FDA /* ViewController.m */; };
 		0C11A8D51FC9071900F40C6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D41E2DC06F00458FDA /* main.m */; };
-		0C11A8D71FC907D600F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8D81FC907D600F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8D91FC907D600F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8DA1FC907D600F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8DB1FC907D600F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8DC1FC907D600F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8DD1FC907D600F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8DE1FC907D600F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8DF1FC907D600F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8E01FC907D600F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8E11FC907D600F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8E21FC907D600F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8EC1FC9084600F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8ED1FC9084600F40C6C /* FDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0C11A8EF1FC908A000F40C6C /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; };
-		0C11A8F01FC908A000F40C6C /* FDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8D61FC907D600F40C6C /* FDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0C11A8F81FC90A8300F40C6C /* libQSLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C11A8F21FC90A8300F40C6C /* libQSLibrary.a */; };
 		0C11A8F91FC90A8300F40C6C /* Appid.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C11A8F31FC90A8300F40C6C /* Appid.plist */; };
 		0C11A8FA1FC90A8300F40C6C /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 0C11A8F61FC90A8300F40C6C /* public_key.der */; };
 		0C11A8FB1FC90A8300F40C6C /* QSbundl.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C11A8F71FC90A8300F40C6C /* QSbundl.bundle */; };
+		0C34F90E1FD528FC0011923F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A107DC1E2DC06F00458FDA /* Main.storyboard */; };
+		0C34F90F1FD528FC0011923F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A107E11E2DC06F00458FDA /* LaunchScreen.storyboard */; };
+		0C34F9101FD529030011923F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A107DF1E2DC06F00458FDA /* Assets.xcassets */; };
+		0C34F9111FD5290B0011923F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D41E2DC06F00458FDA /* main.m */; };
+		0C34F9121FD529190011923F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D71E2DC06F00458FDA /* AppDelegate.mm */; };
+		0C34F9131FD529200011923F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107DA1E2DC06F00458FDA /* ViewController.m */; };
+		0C34F9151FD52CC00011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F9161FD52CC00011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F9171FD52CC00011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F9181FD52CC00011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F9191FD52CC00011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F91A1FD52CC00011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F91B1FD52CC00011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F91C1FD52CC00011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F91D1FD52CC00011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F91E1FD52CC00011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F91F1FD52CC00011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F9201FD52CC00011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F9221FD52CFC0011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F9231FD52CFC0011923F /* FDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C34F9241FD52D360011923F /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		0C34F9251FD52D370011923F /* FDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C34F9271FD52F1F0011923F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC6F20D1EBB262700AA2C8A /* StoreKit.framework */; };
+		0C34F9281FD52F270011923F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC171E3060370082BA72 /* SystemConfiguration.framework */; };
+		0C34F9291FD52F380011923F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC191E30603B0082BA72 /* CFNetwork.framework */; };
+		0C34F92A1FD52F440011923F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8445A91FA0339A00746ACB /* libsqlite3.0.tbd */; };
+		0C34F92C1FD52F540011923F /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F92B1FD52F540011923F /* libc++.1.tbd */; };
+		0C34F92D1FD52F5F0011923F /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8445A71FA0339300746ACB /* libz.1.2.5.tbd */; };
+		0C34F92E1FD52F6D0011923F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC0F1E3060220082BA72 /* CoreTelephony.framework */; };
+		0C34F92F1FD52F780011923F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC1B1E30603F0082BA72 /* Security.framework */; };
+		0C34F9301FD52F840011923F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC211E3060790082BA72 /* CoreMotion.framework */; };
+		0C34F9311FD52F8D0011923F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F420A311EC1A1DB0048EE44 /* UIKit.framework */; };
+		0C34F9321FD52F9B0011923F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC2B1E3063F10082BA72 /* CoreGraphics.framework */; };
+		0C34F9331FD52FA90011923F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F420A261EC1A1320048EE44 /* Foundation.framework */; };
+		0C34F9341FD52FB20011923F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6CC7591F7E7B660054FCBF /* JavaScriptCore.framework */; };
+		0C34F9381FD52FEC0011923F /* GQJBPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9361FD52FEB0011923F /* GQJBPlatform.framework */; };
+		0C34F9391FD52FEC0011923F /* CSMA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9371FD52FEB0011923F /* CSMA.framework */; };
 		0CD141DB1FAB162500C4E4C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D41E2DC06F00458FDA /* main.m */; };
 		0CD141DC1FAB162C00C4E4C7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D71E2DC06F00458FDA /* AppDelegate.mm */; };
 		0CD141DD1FAB163500C4E4C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107DA1E2DC06F00458FDA /* ViewController.m */; };
@@ -226,7 +247,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0C11A8F01FC908A000F40C6C /* FDSDK.framework in Embed Frameworks */,
+				0C34F9231FD52CFC0011923F /* FDSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,7 +258,17 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0C11A8ED1FC9084600F40C6C /* FDSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C34F9261FD52D370011923F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0C34F9251FD52D370011923F /* FDSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,12 +381,17 @@
 /* Begin PBXFileReference section */
 		0C11A8BA1FC906CE00F40C6C /* FDWoAiWanSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDWoAiWanSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C11A8CA1FC906CE00F40C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C11A8D61FC907D600F40C6C /* FDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FDSDK.framework; sourceTree = "<group>"; };
 		0C11A8F21FC90A8300F40C6C /* libQSLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQSLibrary.a; sourceTree = "<group>"; };
 		0C11A8F31FC90A8300F40C6C /* Appid.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Appid.plist; sourceTree = "<group>"; };
 		0C11A8F51FC90A8300F40C6C /* KCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCManager.h; sourceTree = "<group>"; };
 		0C11A8F61FC90A8300F40C6C /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
 		0C11A8F71FC90A8300F40C6C /* QSbundl.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QSbundl.bundle; sourceTree = "<group>"; };
+		0C34F8F81FD528C40011923F /* FDChuangXingSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDChuangXingSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C34F9081FD528C40011923F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C34F9141FD52CC00011923F /* FDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FDSDK.framework; sourceTree = "<group>"; };
+		0C34F92B1FD52F540011923F /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		0C34F9361FD52FEB0011923F /* GQJBPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GQJBPlatform.framework; sourceTree = "<group>"; };
+		0C34F9371FD52FEB0011923F /* CSMA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CSMA.framework; sourceTree = "<group>"; };
 		0CA609641FAB0B61000E8A38 /* Mxmx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mxmx.framework; sourceTree = "<group>"; };
 		0CA609651FAB0B61000E8A38 /* MxmxRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MxmxRes.bundle; sourceTree = "<group>"; };
 		0CD141C51FAB14A000C4E4C7 /* FDXGSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDXGSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -529,9 +565,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C11A8E21FC907D600F40C6C /* FDSDK.framework in Frameworks */,
-				0C11A8EC1FC9084600F40C6C /* FDSDK.framework in Frameworks */,
 				0C11A8F81FC90A8300F40C6C /* libQSLibrary.a in Frameworks */,
+				0C34F9201FD52CC00011923F /* FDSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C34F8F51FD528C40011923F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C34F9341FD52FB20011923F /* JavaScriptCore.framework in Frameworks */,
+				0C34F9381FD52FEC0011923F /* GQJBPlatform.framework in Frameworks */,
+				0C34F9331FD52FA90011923F /* Foundation.framework in Frameworks */,
+				0C34F9321FD52F9B0011923F /* CoreGraphics.framework in Frameworks */,
+				0C34F9311FD52F8D0011923F /* UIKit.framework in Frameworks */,
+				0C34F9301FD52F840011923F /* CoreMotion.framework in Frameworks */,
+				0C34F92F1FD52F780011923F /* Security.framework in Frameworks */,
+				0C34F92E1FD52F6D0011923F /* CoreTelephony.framework in Frameworks */,
+				0C34F92D1FD52F5F0011923F /* libz.1.2.5.tbd in Frameworks */,
+				0C34F92C1FD52F540011923F /* libc++.1.tbd in Frameworks */,
+				0C34F92A1FD52F440011923F /* libsqlite3.0.tbd in Frameworks */,
+				0C34F9291FD52F380011923F /* CFNetwork.framework in Frameworks */,
+				0C34F9281FD52F270011923F /* SystemConfiguration.framework in Frameworks */,
+				0C34F9271FD52F1F0011923F /* StoreKit.framework in Frameworks */,
+				0C34F9391FD52FEC0011923F /* CSMA.framework in Frameworks */,
+				0C34F9241FD52D360011923F /* FDSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,7 +599,7 @@
 			files = (
 				8F6C821E1FB00AC6005D706C /* StoreKit.framework in Frameworks */,
 				0CD141E01FAB16A600C4E4C7 /* CoreTelephony.framework in Frameworks */,
-				0C11A8DF1FC907D600F40C6C /* FDSDK.framework in Frameworks */,
+				0C34F91D1FD52CC00011923F /* FDSDK.framework in Frameworks */,
 				8F6C821C1FB00A1A005D706C /* Mxmx.framework in Frameworks */,
 				0CD141DF1FAB169B00C4E4C7 /* SystemConfiguration.framework in Frameworks */,
 			);
@@ -551,8 +609,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C11A8D71FC907D600F40C6C /* FDSDK.framework in Frameworks */,
-				0C11A8EF1FC908A000F40C6C /* FDSDK.framework in Frameworks */,
+				0C34F9151FD52CC00011923F /* FDSDK.framework in Frameworks */,
+				0C34F9221FD52CFC0011923F /* FDSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,7 +619,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F0122CD1FC80DEF00A0665D /* SystemConfiguration.framework in Frameworks */,
-				0C11A8E11FC907D600F40C6C /* FDSDK.framework in Frameworks */,
+				0C34F91F1FD52CC00011923F /* FDSDK.framework in Frameworks */,
 				8F0122CC1FC80CDB00A0665D /* CFNetwork.framework in Frameworks */,
 				8F0122CB1FC80CD500A0665D /* CoreTelephony.framework in Frameworks */,
 				8F0122CA1FC80CD000A0665D /* Security.framework in Frameworks */,
@@ -577,7 +635,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F13666D1FA754CD005AEE9A /* AdSupport.framework in Frameworks */,
-				0C11A8DE1FC907D600F40C6C /* FDSDK.framework in Frameworks */,
+				0C34F91C1FD52CC00011923F /* FDSDK.framework in Frameworks */,
 				8F13666C1FA754C7005AEE9A /* StoreKit.framework in Frameworks */,
 				8F13666B1FA754C0005AEE9A /* SystemConfiguration.framework in Frameworks */,
 				8F13666A1FA754B9005AEE9A /* CoreTelephony.framework in Frameworks */,
@@ -601,7 +659,7 @@
 				8F42F8401F9F400700283FC6 /* libsqlite3.tbd in Frameworks */,
 				8F42F81D1F9F3D6C00283FC6 /* AlicloudMobileAnalitics.framework in Frameworks */,
 				8F42F8261F9F3D6C00283FC6 /* GameCatSDK.framework in Frameworks */,
-				0C11A8D81FC907D600F40C6C /* FDSDK.framework in Frameworks */,
+				0C34F9161FD52CC00011923F /* FDSDK.framework in Frameworks */,
 				8F42F8361F9F3D6C00283FC6 /* UTMini.framework in Frameworks */,
 				8F42F81E1F9F3D6C00283FC6 /* AlicloudUtils.framework in Frameworks */,
 				8F42F8351F9F3D6C00283FC6 /* UTDID.framework in Frameworks */,
@@ -614,7 +672,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F42F8691F9F448400283FC6 /* SGSDKCore.framework in Frameworks */,
-				0C11A8D91FC907D600F40C6C /* FDSDK.framework in Frameworks */,
+				0C34F9171FD52CC00011923F /* FDSDK.framework in Frameworks */,
 				8F42F8671F9F448400283FC6 /* libSGSDK_AppStore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,7 +683,7 @@
 			files = (
 				8F76B48B1FA06626003477F6 /* StoreKit.framework in Frameworks */,
 				8F76B4891FA06368003477F6 /* AdSupport.framework in Frameworks */,
-				0C11A8DB1FC907D600F40C6C /* FDSDK.framework in Frameworks */,
+				0C34F9191FD52CC00011923F /* FDSDK.framework in Frameworks */,
 				8F76B4881FA0635F003477F6 /* Security.framework in Frameworks */,
 				8F76B4871FA06350003477F6 /* libz.tbd in Frameworks */,
 				8F76B4821FA045CA003477F6 /* libDataEyeTracking_v1.9.4.a in Frameworks */,
@@ -638,7 +696,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F81E1741FA09B2500108222 /* HGSDK.framework in Frameworks */,
-				0C11A8DC1FC907D600F40C6C /* FDSDK.framework in Frameworks */,
+				0C34F91A1FD52CC00011923F /* FDSDK.framework in Frameworks */,
 				8F81E16F1FA09AB400108222 /* HGSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -648,7 +706,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F82AD441FA1EE5C0020C523 /* MKSDK.framework in Frameworks */,
-				0C11A8DD1FC907D600F40C6C /* FDSDK.framework in Frameworks */,
+				0C34F91B1FD52CC00011923F /* FDSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,7 +721,7 @@
 				8F8445AB1FA033A100746ACB /* CoreGraphics.framework in Frameworks */,
 				8F8445AA1FA0339A00746ACB /* libsqlite3.0.tbd in Frameworks */,
 				8F8445A81FA0339300746ACB /* libz.1.2.5.tbd in Frameworks */,
-				0C11A8DA1FC907D600F40C6C /* FDSDK.framework in Frameworks */,
+				0C34F9181FD52CC00011923F /* FDSDK.framework in Frameworks */,
 				8F8445A61FA0338A00746ACB /* CoreTelephony.framework in Frameworks */,
 				8F8445A51FA0338300746ACB /* Foundation.framework in Frameworks */,
 				8F8445A41FA0337B00746ACB /* UIKit.framework in Frameworks */,
@@ -682,7 +740,7 @@
 				8FAB804F1FB6933700076DF0 /* AdSupport.framework in Frameworks */,
 				8FAB804E1FB6933100076DF0 /* StoreKit.framework in Frameworks */,
 				8FAB804D1FB6932900076DF0 /* CoreText.framework in Frameworks */,
-				0C11A8E01FC907D600F40C6C /* FDSDK.framework in Frameworks */,
+				0C34F91E1FD52CC00011923F /* FDSDK.framework in Frameworks */,
 				8FAB804C1FB6932300076DF0 /* CoreMotion.framework in Frameworks */,
 				8FAB804B1FB6931B00076DF0 /* CFNetwork.framework in Frameworks */,
 				8FAB80571FB6936C00076DF0 /* LYGameSDK.framework in Frameworks */,
@@ -724,6 +782,23 @@
 			path = include;
 			sourceTree = "<group>";
 		};
+		0C34F8F91FD528C40011923F /* FDChuangXingSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0C34F9081FD528C40011923F /* Info.plist */,
+			);
+			path = FDChuangXingSDKDemo;
+			sourceTree = "<group>";
+		};
+		0C34F9351FD52FEB0011923F /* ChuangXingSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0C34F9361FD52FEB0011923F /* GQJBPlatform.framework */,
+				0C34F9371FD52FEB0011923F /* CSMA.framework */,
+			);
+			path = ChuangXingSDK;
+			sourceTree = "<group>";
+		};
 		0CA609631FAB0B61000E8A38 /* XGSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -744,6 +819,7 @@
 		1446ABF61E305F520082BA72 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				0C34F9351FD52FEB0011923F /* ChuangXingSDK */,
 				0C11A8F11FC90A8300F40C6C /* WoAiWanSDK */,
 				8F0122C21FC80C6F00A0665D /* ZhiJianSDK */,
 				8FAB80431FB692C200076DF0 /* LYSDK */,
@@ -774,6 +850,7 @@
 				0CD141C61FAB14A000C4E4C7 /* FDXGSDKDemo */,
 				8FAB80271FB6924A00076DF0 /* FDLYSDKDemo */,
 				0C11A8BB1FC906CE00F40C6C /* FDWoAiWanSDKDemo */,
+				0C34F8F91FD528C40011923F /* FDChuangXingSDKDemo */,
 				14A107EA1E2DC09200458FDA /* Frameworks */,
 				14A107D11E2DC06F00458FDA /* Products */,
 			);
@@ -794,6 +871,7 @@
 				8FAB80261FB6924A00076DF0 /* FDLYSDKDemo.app */,
 				8F0122A21FC80BC300A0665D /* FDZhiJianSDKDemo.app */,
 				0C11A8BA1FC906CE00F40C6C /* FDWoAiWanSDKDemo.app */,
+				0C34F8F81FD528C40011923F /* FDChuangXingSDKDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -825,7 +903,8 @@
 		14A107EA1E2DC09200458FDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0C11A8D61FC907D600F40C6C /* FDSDK.framework */,
+				0C34F92B1FD52F540011923F /* libc++.1.tbd */,
+				0C34F9141FD52CC00011923F /* FDSDK.framework */,
 				1446ABF61E305F520082BA72 /* SDK */,
 				8F42F8451F9F406E00283FC6 /* libresolv.tbd */,
 				8F6CC7591F7E7B660054FCBF /* JavaScriptCore.framework */,
@@ -1210,6 +1289,24 @@
 			productReference = 0C11A8BA1FC906CE00F40C6C /* FDWoAiWanSDKDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0C34F8F71FD528C40011923F /* FDChuangXingSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C34F90D1FD528C40011923F /* Build configuration list for PBXNativeTarget "FDChuangXingSDKDemo" */;
+			buildPhases = (
+				0C34F8F41FD528C40011923F /* Sources */,
+				0C34F8F51FD528C40011923F /* Frameworks */,
+				0C34F8F61FD528C40011923F /* Resources */,
+				0C34F9261FD52D370011923F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDChuangXingSDKDemo;
+			productName = FDChuangXingSDKDemo;
+			productReference = 0C34F8F81FD528C40011923F /* FDChuangXingSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0CD141C41FAB14A000C4E4C7 /* FDXGSDKDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CD141D81FAB14A000C4E4C7 /* Build configuration list for PBXNativeTarget "FDXGSDKDemo" */;
@@ -1423,6 +1520,11 @@
 						DevelopmentTeam = KS98J4RYQ2;
 						ProvisioningStyle = Automatic;
 					};
+					0C34F8F71FD528C40011923F = {
+						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = Z7PMKRUHE7;
+						ProvisioningStyle = Manual;
+					};
 					0CD141C41FAB14A000C4E4C7 = {
 						CreatedOnToolsVersion = 9.0.1;
 						DevelopmentTeam = ZY23FCWC2K;
@@ -1518,6 +1620,7 @@
 				8FAB80251FB6924A00076DF0 /* FDLYSDKDemo */,
 				8F0122A11FC80BC300A0665D /* FDZhiJianSDKDemo */,
 				0C11A8B91FC906CE00F40C6C /* FDWoAiWanSDKDemo */,
+				0C34F8F71FD528C40011923F /* FDChuangXingSDKDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -1533,6 +1636,16 @@
 				0C11A8F91FC90A8300F40C6C /* Appid.plist in Resources */,
 				0C11A8FA1FC90A8300F40C6C /* public_key.der in Resources */,
 				0C11A8FB1FC90A8300F40C6C /* QSbundl.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C34F8F61FD528C40011923F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C34F9101FD529030011923F /* Assets.xcassets in Resources */,
+				0C34F90E1FD528FC0011923F /* Main.storyboard in Resources */,
+				0C34F90F1FD528FC0011923F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1685,6 +1798,16 @@
 				0C11A8D31FC9071900F40C6C /* AppDelegate.mm in Sources */,
 				0C11A8D41FC9071900F40C6C /* ViewController.m in Sources */,
 				0C11A8D51FC9071900F40C6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C34F8F41FD528C40011923F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C34F9131FD529200011923F /* ViewController.m in Sources */,
+				0C34F9121FD529190011923F /* AppDelegate.mm in Sources */,
+				0C34F9111FD5290B0011923F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1921,6 +2044,76 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = huguan.FDWoAiWanSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C34F90B1FD528C40011923F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z7PMKRUHE7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/创星SDK",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FDChuangXingSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfdgl.gameapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8923e392-c61b-4b2f-a3bd-5c97212a9bb4";
+				PROVISIONING_PROFILE_SPECIFIER = zfdglDev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C34F90C1FD528C40011923F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z7PMKRUHE7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/创星SDK",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FDChuangXingSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfdgl.gameapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8923e392-c61b-4b2f-a3bd-5c97212a9bb4";
+				PROVISIONING_PROFILE_SPECIFIER = zfdglDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2666,6 +2859,15 @@
 			buildConfigurations = (
 				0C11A8CD1FC906CE00F40C6C /* Debug */,
 				0C11A8CE1FC906CE00F40C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C34F90D1FD528C40011923F /* Build configuration list for PBXNativeTarget "FDChuangXingSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C34F90B1FD528C40011923F /* Debug */,
+				0C34F90C1FD528C40011923F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

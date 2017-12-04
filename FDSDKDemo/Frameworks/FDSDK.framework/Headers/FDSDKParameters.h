@@ -22,7 +22,7 @@ typedef NS_ENUM(NSInteger, FDPlatformType) {
     FDYXMPlatform     = 9,          //游戏猫
     FDSGPlatform      = 10,         //数果
     FDXGPlatform      = 11,          // 雪糕
-    FDWoAiWanPlatform = 12           // 我爱玩
+    FDChuangXingPlatform = 12,      // 创星
 };
 
 @interface FDSDKParameters : NSObject
@@ -75,6 +75,14 @@ typedef NS_ENUM(NSInteger, FDPlatformType) {
  *   雪糕SDK初始化参数对象
  */
 @property (nonatomic, strong)  FDXGSDKInitModel *xgSDKInitModel;
+
+
+/**
+ *   创星SDK初始化参数对象
+ */
+@property (nonatomic, strong)  FDChuangXingInitModel *chuangXingSDKInitModel;
+
+
 
 
 /**
