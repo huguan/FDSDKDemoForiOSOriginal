@@ -1,0 +1,6 @@
+framework module CSMA {
+  umbrella header "CSMA.h"
+
+  export *
+  module * { export * }
+}

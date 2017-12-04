@@ -83,6 +83,10 @@
         [roleModel setExtar:@"扩展信息"];
         [roleModel setSpeciallySuit:@"0"];
         
+        // 模拟玩家选择服务器事件
+        [roleModel setFdDataType:FD_EXTRADATA_TYPE_SELECT_SERVER];
+        [[FDSDK sharedInstance] updateRoleInfo:roleModel];
+        
         // 模拟玩家创建角色事件
         [roleModel setFdDataType:FD_EXTRADATA_TYPE_CREATE_ROLE];
         [[FDSDK sharedInstance] updateRoleInfo:roleModel];
@@ -111,9 +115,9 @@
     [payParamsModel setRoleId:@"001"];
     [payParamsModel setRoleName:@"GG20思密达"];
     [payParamsModel setOrderId:[self getOrderStringByTime]];
-    [payParamsModel setProductId:@"cyzlsczb.cy.600"];
+    [payParamsModel setProductId:@"com.xtlzs.600"];
+    [payParamsModel setMappingId:@"3"];
     [payParamsModel setProductName:@"元宝"];
-    [payParamsModel setMappingId:@"0"];
     [payParamsModel setProductDesc:@"花费6人民币购买600元宝"];
     [payParamsModel setExtension:@"Test_extension"];
     [[FDSDK sharedInstance] fdPay:payParamsModel complete:^(FDPayResultCode payResultCode) {

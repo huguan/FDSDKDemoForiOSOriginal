@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GTSPGameBundleName</key>
+	<string>GTSPGameBlack</string>
+	<key>GTSPGameName</key>
+	<string>xtlzsios</string>
+	<key>GTSPGameID</key>
+	<string>31910</string>
+	<key>DeepActivationSec</key>
+	<integer>10</integer>
+	<key>DebugMode</key>
+	<true/>
+	<key>GTSPGamePlatform</key>
+	<string>GTSPGAME_PLATFORM_ORIGINAL_IOS</string>
+	<key>CustomerServiceQQ</key>
+	<string>3004354713</string>
+	<key>GamerGroup1</key>
+	<string>680347605</string>
+	<key>GamerGroup2</key>
+	<string></string>
+</dict>
+</plist>

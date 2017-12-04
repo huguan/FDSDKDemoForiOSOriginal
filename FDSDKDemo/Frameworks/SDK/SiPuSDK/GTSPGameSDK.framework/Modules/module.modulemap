@@ -1,0 +1,6 @@
+framework module GTSPGameSDK {
+  umbrella header "GTSPGameSDK.h"
+
+  export *
+  module * { export * }
+}
