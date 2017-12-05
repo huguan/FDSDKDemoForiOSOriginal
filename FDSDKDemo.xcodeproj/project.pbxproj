@@ -270,6 +270,19 @@
 		8FAB80581FB6936C00076DF0 /* LYGameSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAB80451FB692C200076DF0 /* LYGameSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8FC1FD1F1FD554AB00A6408A /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
 		8FC1FD201FD554AB00A6408A /* FDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8FE2FD001FD67A2D00C35058 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D71E2DC06F00458FDA /* AppDelegate.mm */; };
+		8FE2FD011FD67A2E00C35058 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107DA1E2DC06F00458FDA /* ViewController.m */; };
+		8FE2FD021FD67A2E00C35058 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D41E2DC06F00458FDA /* main.m */; };
+		8FE2FD031FD67A3500C35058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A107DC1E2DC06F00458FDA /* Main.storyboard */; };
+		8FE2FD041FD67A3500C35058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A107DF1E2DC06F00458FDA /* Assets.xcassets */; };
+		8FE2FD051FD67A3500C35058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A107E11E2DC06F00458FDA /* LaunchScreen.storyboard */; };
+		8FE2FD061FD67A4D00C35058 /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		8FE2FD071FD67A4D00C35058 /* FDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8FE2FD0E1FD67A9700C35058 /* libMLGame_TF17.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE2FD0A1FD67A9700C35058 /* libMLGame_TF17.a */; };
+		8FE2FD0F1FD67A9700C35058 /* libMLGameCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE2FD0B1FD67A9700C35058 /* libMLGameCore.a */; };
+		8FE2FD101FD67A9700C35058 /* ST17DK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8FE2FD0D1FD67A9700C35058 /* ST17DK.bundle */; };
+		8FE2FD111FD67AEA00C35058 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC271E3063E50082BA72 /* AdSupport.framework */; };
+		8FE2FD121FD67AEF00C35058 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC6F20D1EBB262700AA2C8A /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -427,6 +440,17 @@
 			dstSubfolderSpec = 10;
 			files = (
 				8FAB80581FB6936C00076DF0 /* LYGameSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE2FD081FD67A4D00C35058 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8FE2FD071FD67A4D00C35058 /* FDSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -623,6 +647,12 @@
 		8FDCDB921F3AF0A1001E1C2A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		8FDCDB9B1F3AF126001E1C2A /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		8FDCDB9D1F3AF135001E1C2A /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		8FE2FCE91FD67A1200C35058 /* FDChouQinSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDChouQinSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE2FCFC1FD67A1300C35058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE2FD0A1FD67A9700C35058 /* libMLGame_TF17.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMLGame_TF17.a; sourceTree = "<group>"; };
+		8FE2FD0B1FD67A9700C35058 /* libMLGameCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMLGameCore.a; sourceTree = "<group>"; };
+		8FE2FD0C1FD67A9700C35058 /* MLGameCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLGameCore.h; sourceTree = "<group>"; };
+		8FE2FD0D1FD67A9700C35058 /* ST17DK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ST17DK.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -843,6 +873,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FE2FCE61FD67A1200C35058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE2FD121FD67AEF00C35058 /* StoreKit.framework in Frameworks */,
+				8FE2FD111FD67AEA00C35058 /* AdSupport.framework in Frameworks */,
+				8FE2FD0E1FD67A9700C35058 /* libMLGame_TF17.a in Frameworks */,
+				8FE2FD0F1FD67A9700C35058 /* libMLGameCore.a in Frameworks */,
+				8FE2FD061FD67A4D00C35058 /* FDSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -911,6 +953,7 @@
 		1446ABF61E305F520082BA72 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				8FE2FD091FD67A9700C35058 /* ChouQinSDK */,
 				8F147FB21FD5534C00BAAC33 /* SiPuSDK */,
 				8F4B3EFF1FD162590002B699 /* GameSDKLib */,
 				0C34F9351FD52FEB0011923F /* ChuangXingSDK */,
@@ -947,6 +990,7 @@
 				0C11A8BB1FC906CE00F40C6C /* FDWoAiWanSDKDemo */,
 				0C34F8F91FD528C40011923F /* FDChuangXingSDKDemo */,
 				8F147F961FD5529000BAAC33 /* FDSiPuSDKDemo */,
+				8FE2FCEA1FD67A1200C35058 /* FDChouQinSDKDemo */,
 				14A107EA1E2DC09200458FDA /* Frameworks */,
 				14A107D11E2DC06F00458FDA /* Products */,
 			);
@@ -970,6 +1014,7 @@
 				0C11A8BA1FC906CE00F40C6C /* FDWoAiWanSDKDemo.app */,
 				0C34F8F81FD528C40011923F /* FDChuangXingSDKDemo.app */,
 				8F147F951FD5529000BAAC33 /* FDSiPuSDKDemo.app */,
+				8FE2FCE91FD67A1200C35058 /* FDChouQinSDKDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1402,6 +1447,25 @@
 			path = LYSDK;
 			sourceTree = "<group>";
 		};
+		8FE2FCEA1FD67A1200C35058 /* FDChouQinSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8FE2FCFC1FD67A1300C35058 /* Info.plist */,
+			);
+			path = FDChouQinSDKDemo;
+			sourceTree = "<group>";
+		};
+		8FE2FD091FD67A9700C35058 /* ChouQinSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8FE2FD0A1FD67A9700C35058 /* libMLGame_TF17.a */,
+				8FE2FD0B1FD67A9700C35058 /* libMLGameCore.a */,
+				8FE2FD0C1FD67A9700C35058 /* MLGameCore.h */,
+				8FE2FD0D1FD67A9700C35058 /* ST17DK.bundle */,
+			);
+			path = ChouQinSDK;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1676,6 +1740,24 @@
 			productReference = 8FAB80261FB6924A00076DF0 /* FDLYSDKDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8FE2FCE81FD67A1200C35058 /* FDChouQinSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE2FCFF1FD67A1300C35058 /* Build configuration list for PBXNativeTarget "FDChouQinSDKDemo" */;
+			buildPhases = (
+				8FE2FCE51FD67A1200C35058 /* Sources */,
+				8FE2FCE61FD67A1200C35058 /* Frameworks */,
+				8FE2FCE71FD67A1200C35058 /* Resources */,
+				8FE2FD081FD67A4D00C35058 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDChouQinSDKDemo;
+			productName = FDChouQinSDKDemo;
+			productReference = 8FE2FCE91FD67A1200C35058 /* FDChouQinSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1773,6 +1855,11 @@
 							};
 						};
 					};
+					8FE2FCE81FD67A1200C35058 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KD6ZZ8VLTL;
+						ProvisioningStyle = Manual;
+					};
 				};
 			};
 			buildConfigurationList = 14A107CB1E2DC06F00458FDA /* Build configuration list for PBXProject "FDSDKDemo" */;
@@ -1803,6 +1890,7 @@
 				0C11A8B91FC906CE00F40C6C /* FDWoAiWanSDKDemo */,
 				0C34F8F71FD528C40011923F /* FDChuangXingSDKDemo */,
 				8F147F941FD5529000BAAC33 /* FDSiPuSDKDemo */,
+				8FE2FCE81FD67A1200C35058 /* FDChouQinSDKDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -1975,6 +2063,17 @@
 				8FAB80401FB6927A00076DF0 /* Main.storyboard in Resources */,
 				8FAB80411FB6927A00076DF0 /* Assets.xcassets in Resources */,
 				8FAB80421FB6927A00076DF0 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE2FCE71FD67A1200C35058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE2FD031FD67A3500C35058 /* Main.storyboard in Resources */,
+				8FE2FD041FD67A3500C35058 /* Assets.xcassets in Resources */,
+				8FE2FD051FD67A3500C35058 /* LaunchScreen.storyboard in Resources */,
+				8FE2FD101FD67A9700C35058 /* ST17DK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2177,6 +2276,16 @@
 				8FAB803D1FB6927100076DF0 /* AppDelegate.mm in Sources */,
 				8FAB803E1FB6927100076DF0 /* ViewController.m in Sources */,
 				8FAB803F1FB6927100076DF0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE2FCE51FD67A1200C35058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE2FD001FD67A2D00C35058 /* AppDelegate.mm in Sources */,
+				8FE2FD011FD67A2E00C35058 /* ViewController.m in Sources */,
+				8FE2FD021FD67A2E00C35058 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3175,6 +3284,58 @@
 			};
 			name = Release;
 		};
+		8FE2FCFD1FD67A1300C35058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = KD6ZZ8VLTL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks",
+				);
+				INFOPLIST_FILE = FDChouQinSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/ChouQinSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtlzs.cream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9d1bab35-eb70-4838-91a2-962de603854a";
+				PROVISIONING_PROFILE_SPECIFIER = xtlzs_dev_171204;
+			};
+			name = Debug;
+		};
+		8FE2FCFE1FD67A1300C35058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = KD6ZZ8VLTL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks",
+				);
+				INFOPLIST_FILE = FDChouQinSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/ChouQinSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtlzs.cream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9d1bab35-eb70-4838-91a2-962de603854a";
+				PROVISIONING_PROFILE_SPECIFIER = xtlzs_dev_171204;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3321,6 +3482,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		8FE2FCFF1FD67A1300C35058 /* Build configuration list for PBXNativeTarget "FDChouQinSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE2FCFD1FD67A1300C35058 /* Debug */,
+				8FE2FCFE1FD67A1300C35058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

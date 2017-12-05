@@ -136,8 +136,15 @@
     //设置思璞SDK参数
     //在GTSPGame.plist中填写相关参数
     
+    // 设置酬勤SDK参数
+    FDChouQinSDKInitModel *chouQinSDKInitModel = [FDChouQinSDKInitModel new];
+    chouQinSDKInitModel.chouQinGameID = 52004;
+    chouQinSDKInitModel.chouQinAppKey = @"16A443597452BAA964AD071FBC35203F";
+    chouQinSDKInitModel.chouQinChannelID = 520040902;
+    [[FDSDKParameters sharedHGSDKParameters] setChouQinSDKInitModel:chouQinSDKInitModel];
+    
     //根据Type初始化不同的SDK
-    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDSiPuPlatform];
+    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDChouQinPlatform];
     [[FDSDK sharedInstance] fdInitWithSDKParameters:[FDSDKParameters sharedHGSDKParameters]];
     
     [[FDSDK sharedInstance] fdApplication:application didFinishLaunchingWithOptions:launchOptions];
@@ -167,6 +174,10 @@
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     [[FDSDK sharedInstance] fdApplicationWillResignActive:application];
+}
+
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler {
+    return [[FDSDK sharedInstance] fdApplication:application continueUserActivity:userActivity restorationHandler:restorationHandler];
 }
 
 

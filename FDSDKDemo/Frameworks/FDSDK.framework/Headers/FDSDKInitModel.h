@@ -192,7 +192,21 @@
 @property(nonatomic, copy) NSString *xgVersion;
 @end
 
+/**
+ *   酬勤（红文SDK）初始化参数对象
+ */
+@interface FDChouQinSDKInitModel : NSObject
 
+// 酬勤 GameID
+@property(nonatomic) int chouQinGameID;
+
+// 酬勤 AppKey
+@property(nonatomic, copy) NSString *chouQinAppKey;
+
+// 酬勤 ChannalID
+@property(nonatomic) int chouQinChannelID;
+
+@end
 
 
 
