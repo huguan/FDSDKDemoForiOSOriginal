@@ -144,13 +144,19 @@
 //    [[FDSDKParameters sharedHGSDKParameters] setChouQinSDKInitModel:chouQinSDKInitModel];
     
     // 设置iToolsSDK参数
-    FDiToolsSDKInitModel *iToolsSDKInitModel = [FDiToolsSDKInitModel new];
-    [iToolsSDKInitModel setIToolsAppID:2949];
-    [iToolsSDKInitModel setIToolsAppKey:@"2DF795B877659AF1AE73BC3607472CB0"];
-    [[FDSDKParameters sharedHGSDKParameters] setIToolsSDKInitModel:iToolsSDKInitModel];
+//    FDiToolsSDKInitModel *iToolsSDKInitModel = [FDiToolsSDKInitModel new];
+//    [iToolsSDKInitModel setIToolsAppID:2949];
+//    [iToolsSDKInitModel setIToolsAppKey:@"2DF795B877659AF1AE73BC3607472CB0"];
+//    [[FDSDKParameters sharedHGSDKParameters] setIToolsSDKInitModel:iToolsSDKInitModel];
+    
+    // 设置龙游SDK参数
+    FDLongYouSDKInitModel *longYouSDKInitModel = [FDLongYouSDKInitModel new];
+    longYouSDKInitModel.longYouAppID = @"AC18F649C5BDAA91336ACE03A9A6AAAB7";
+    longYouSDKInitModel.longYouOpenKey = @"328e48d99490514d6c4b5cdc8ec32cc8";
+    [[FDSDKParameters sharedHGSDKParameters] setLongYouSDKInitModel:longYouSDKInitModel];
     
     //根据Type初始化不同的SDK
-    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDiToolsPlatform];
+    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDLongYouPlatform];
     [[FDSDK sharedInstance] fdInitWithSDKParameters:[FDSDKParameters sharedHGSDKParameters]];
     
     [[FDSDK sharedInstance] fdApplication:application didFinishLaunchingWithOptions:launchOptions];

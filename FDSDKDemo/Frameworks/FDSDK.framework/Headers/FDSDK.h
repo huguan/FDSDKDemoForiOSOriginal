@@ -67,7 +67,7 @@ typedef void (^fdPayBlock)(FDPayResultCode payResultCode);
 /**
  *  登陆之后当前用户对象
  */
-@property (nonatomic, strong) FDUserModel   *fdCurrUserModel;
+@property (nonatomic, strong) FDUserModel *fdCurrUserModel;
 /**
  *  渠道编号
  */
@@ -165,6 +165,7 @@ typedef void (^fdPayBlock)(FDPayResultCode payResultCode);
 - (void)fdApplicationWillEnterForeground:(UIApplication *)application;
 - (void)fdApplicationDidBecomeActive:(UIApplication *)application;
 - (void)fdApplicationWillTerminate:(UIApplication *)application;
+- (BOOL)fdApplication:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray *))restorationHandler;
 
 // 推送通知相关事件
 - (void)fdApplication:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken;

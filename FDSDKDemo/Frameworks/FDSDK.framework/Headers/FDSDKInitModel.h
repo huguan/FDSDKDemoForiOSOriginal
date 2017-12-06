@@ -193,17 +193,18 @@
 @end
 
 /**
- *   iToolsSDK初始化参数对象
+ *   龙游SDK初始化参数对象
  */
-@interface FDiToolsSDKInitModel : NSObject
+@interface FDLongYouSDKInitModel : NSObject
 
-// iTools的appid
-@property(nonatomic) int iToolsAppID;
+// 龙游 AppID
+@property(nonatomic, copy) NSString *longYouAppID;
 
-// iTools的appkey
-@property(nonatomic, copy) NSString *iToolsAppKey;
+// 龙游 OpenKey
+@property(nonatomic, copy) NSString *longYouOpenKey;
 
 @end
+
 
 
 

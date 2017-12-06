@@ -110,6 +110,25 @@
 		8F147FB81FD5534C00BAAC33 /* GTSPGameSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F147FB51FD5534C00BAAC33 /* GTSPGameSDK.framework */; };
 		8F147FB91FD553D100BAAC33 /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
 		8F147FBA1FD553D100BAAC33 /* FDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F3302B91FD7F91800888333 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D71E2DC06F00458FDA /* AppDelegate.mm */; };
+		8F3302BA1FD7F91800888333 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107DA1E2DC06F00458FDA /* ViewController.m */; };
+		8F3302BB1FD7F91800888333 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D41E2DC06F00458FDA /* main.m */; };
+		8F3302BC1FD7F91F00888333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A107DC1E2DC06F00458FDA /* Main.storyboard */; };
+		8F3302BD1FD7F91F00888333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A107DF1E2DC06F00458FDA /* Assets.xcassets */; };
+		8F3302BE1FD7F91F00888333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A107E11E2DC06F00458FDA /* LaunchScreen.storyboard */; };
+		8F3302BF1FD7F92C00888333 /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		8F3302C01FD7F92C00888333 /* FDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F3302D01FD7F96300888333 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F3302C31FD7F96200888333 /* IQKeyboardManager.bundle */; };
+		8F3302D11FD7F96300888333 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3302C41FD7F96200888333 /* libAFNetworking.a */; };
+		8F3302D21FD7F96300888333 /* libIQKeyboardManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3302C51FD7F96200888333 /* libIQKeyboardManager.a */; };
+		8F3302D31FD7F96300888333 /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3302C61FD7F96200888333 /* libMasonry.a */; };
+		8F3302D41FD7F96300888333 /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3302C71FD7F96200888333 /* libMBProgressHUD.a */; };
+		8F3302D51FD7F96300888333 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3302C81FD7F96200888333 /* libSDWebImage.a */; };
+		8F3302D61FD7F96300888333 /* libTTAccount_v2.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3302C91FD7F96200888333 /* libTTAccount_v2.0.3.a */; };
+		8F3302D71FD7F96300888333 /* libWebViewJavascriptBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3302CA1FD7F96200888333 /* libWebViewJavascriptBridge.a */; };
+		8F3302D81FD7F96300888333 /* libYDPay_v1.2.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3302CB1FD7F96200888333 /* libYDPay_v1.2.1.a */; };
+		8F3302D91FD7F96300888333 /* YDAccountResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F3302CD1FD7F96200888333 /* YDAccountResource.bundle */; };
+		8F3302DA1FD7F96300888333 /* YDTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F3302CE1FD7F96200888333 /* YDTool.bundle */; };
 		8F42F80C1F9F3D6C00283FC6 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F42F7B91F9F3D6C00283FC6 /* AFHTTPSessionManager.m */; };
 		8F42F80D1F9F3D6C00283FC6 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F42F7BC1F9F3D6C00283FC6 /* AFNetworkReachabilityManager.m */; };
 		8F42F80E1F9F3D6C00283FC6 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F42F7BE1F9F3D6C00283FC6 /* AFSecurityPolicy.m */; };
@@ -376,6 +395,17 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F3302C11FD7F92C00888333 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8F3302C01FD7F92C00888333 /* FDSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F42F83F1F9F3F0E00283FC6 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -540,6 +570,21 @@
 		8F147FB31FD5534C00BAAC33 /* GTSPGame.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GTSPGame.plist; sourceTree = "<group>"; };
 		8F147FB41FD5534C00BAAC33 /* GTSPGameBlack.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GTSPGameBlack.bundle; sourceTree = "<group>"; };
 		8F147FB51FD5534C00BAAC33 /* GTSPGameSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTSPGameSDK.framework; sourceTree = "<group>"; };
+		8F3302A31FD7F8DF00888333 /* FDLongYouSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDLongYouSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3302B31FD7F8DF00888333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3302C31FD7F96200888333 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		8F3302C41FD7F96200888333 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAFNetworking.a; sourceTree = "<group>"; };
+		8F3302C51FD7F96200888333 /* libIQKeyboardManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIQKeyboardManager.a; sourceTree = "<group>"; };
+		8F3302C61FD7F96200888333 /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMasonry.a; sourceTree = "<group>"; };
+		8F3302C71FD7F96200888333 /* libMBProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMBProgressHUD.a; sourceTree = "<group>"; };
+		8F3302C81FD7F96200888333 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDWebImage.a; sourceTree = "<group>"; };
+		8F3302C91FD7F96200888333 /* libTTAccount_v2.0.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTTAccount_v2.0.3.a; sourceTree = "<group>"; };
+		8F3302CA1FD7F96200888333 /* libWebViewJavascriptBridge.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWebViewJavascriptBridge.a; sourceTree = "<group>"; };
+		8F3302CB1FD7F96200888333 /* libYDPay_v1.2.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYDPay_v1.2.1.a; sourceTree = "<group>"; };
+		8F3302CC1FD7F96200888333 /* YDAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAccount.h; sourceTree = "<group>"; };
+		8F3302CD1FD7F96200888333 /* YDAccountResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YDAccountResource.bundle; sourceTree = "<group>"; };
+		8F3302CE1FD7F96200888333 /* YDTool.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YDTool.bundle; sourceTree = "<group>"; };
+		8F3302CF1FD7F96200888333 /* YDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTool.h; sourceTree = "<group>"; };
 		8F420A1B1EC1A0700048EE44 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 		8F420A241EC1A1170048EE44 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		8F420A261EC1A1320048EE44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -782,6 +827,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F3302A01FD7F8DF00888333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3302D81FD7F96300888333 /* libYDPay_v1.2.1.a in Frameworks */,
+				8F3302D61FD7F96300888333 /* libTTAccount_v2.0.3.a in Frameworks */,
+				8F3302D21FD7F96300888333 /* libIQKeyboardManager.a in Frameworks */,
+				8F3302D51FD7F96300888333 /* libSDWebImage.a in Frameworks */,
+				8F3302D11FD7F96300888333 /* libAFNetworking.a in Frameworks */,
+				8F3302D41FD7F96300888333 /* libMBProgressHUD.a in Frameworks */,
+				8F3302BF1FD7F92C00888333 /* FDSDK.framework in Frameworks */,
+				8F3302D31FD7F96300888333 /* libMasonry.a in Frameworks */,
+				8F3302D71FD7F96300888333 /* libWebViewJavascriptBridge.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F42F79B1F9F3D4300283FC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1002,6 +1063,7 @@
 		1446ABF61E305F520082BA72 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				8F3302C21FD7F96200888333 /* LongYouSDK */,
 				8FA85A0E1FD7DD5F00386491 /* iToolsSDK */,
 				8FE2FD091FD67A9700C35058 /* ChouQinSDK */,
 				8F147FB21FD5534C00BAAC33 /* SiPuSDK */,
@@ -1042,6 +1104,7 @@
 				8F147F961FD5529000BAAC33 /* FDSiPuSDKDemo */,
 				8FE2FCEA1FD67A1200C35058 /* FDChouQinSDKDemo */,
 				8FA859F21FD7DCFE00386491 /* FDiToolsSDKDemo */,
+				8F3302A41FD7F8DF00888333 /* FDLongYouSDKDemo */,
 				14A107EA1E2DC09200458FDA /* Frameworks */,
 				14A107D11E2DC06F00458FDA /* Products */,
 			);
@@ -1067,6 +1130,7 @@
 				8F147F951FD5529000BAAC33 /* FDSiPuSDKDemo.app */,
 				8FE2FCE91FD67A1200C35058 /* FDChouQinSDKDemo.app */,
 				8FA859F11FD7DCFE00386491 /* FDiToolsSDKDemo.app */,
+				8F3302A31FD7F8DF00888333 /* FDLongYouSDKDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1189,6 +1253,34 @@
 				8F147FB51FD5534C00BAAC33 /* GTSPGameSDK.framework */,
 			);
 			path = SiPuSDK;
+			sourceTree = "<group>";
+		};
+		8F3302A41FD7F8DF00888333 /* FDLongYouSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F3302B31FD7F8DF00888333 /* Info.plist */,
+			);
+			path = FDLongYouSDKDemo;
+			sourceTree = "<group>";
+		};
+		8F3302C21FD7F96200888333 /* LongYouSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8F3302C31FD7F96200888333 /* IQKeyboardManager.bundle */,
+				8F3302C41FD7F96200888333 /* libAFNetworking.a */,
+				8F3302C51FD7F96200888333 /* libIQKeyboardManager.a */,
+				8F3302C61FD7F96200888333 /* libMasonry.a */,
+				8F3302C71FD7F96200888333 /* libMBProgressHUD.a */,
+				8F3302C81FD7F96200888333 /* libSDWebImage.a */,
+				8F3302C91FD7F96200888333 /* libTTAccount_v2.0.3.a */,
+				8F3302CA1FD7F96200888333 /* libWebViewJavascriptBridge.a */,
+				8F3302CB1FD7F96200888333 /* libYDPay_v1.2.1.a */,
+				8F3302CC1FD7F96200888333 /* YDAccount.h */,
+				8F3302CD1FD7F96200888333 /* YDAccountResource.bundle */,
+				8F3302CE1FD7F96200888333 /* YDTool.bundle */,
+				8F3302CF1FD7F96200888333 /* YDTool.h */,
+			);
+			path = LongYouSDK;
 			sourceTree = "<group>";
 		};
 		8F42F79F1F9F3D4300283FC6 /* FDYXMSDKDemo */ = {
@@ -1664,6 +1756,24 @@
 			productReference = 8F147F951FD5529000BAAC33 /* FDSiPuSDKDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8F3302A21FD7F8DF00888333 /* FDLongYouSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F3302B81FD7F8DF00888333 /* Build configuration list for PBXNativeTarget "FDLongYouSDKDemo" */;
+			buildPhases = (
+				8F33029F1FD7F8DF00888333 /* Sources */,
+				8F3302A01FD7F8DF00888333 /* Frameworks */,
+				8F3302A11FD7F8DF00888333 /* Resources */,
+				8F3302C11FD7F92C00888333 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDLongYouSDKDemo;
+			productName = FDLongYouSDKDemo;
+			productReference = 8F3302A31FD7F8DF00888333 /* FDLongYouSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8F42F79D1F9F3D4300283FC6 /* FDYXMSDKDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F42F7B21F9F3D4300283FC6 /* Build configuration list for PBXNativeTarget "FDYXMSDKDemo" */;
@@ -1889,6 +1999,11 @@
 						DevelopmentTeam = KD6ZZ8VLTL;
 						ProvisioningStyle = Manual;
 					};
+					8F3302A21FD7F8DF00888333 = {
+						CreatedOnToolsVersion = 9.0.1;
+						DevelopmentTeam = 3VDBFX7X94;
+						ProvisioningStyle = Manual;
+					};
 					8F42F79D1F9F3D4300283FC6 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = ZY23FCWC2K;
@@ -1984,6 +2099,7 @@
 				8F147F941FD5529000BAAC33 /* FDSiPuSDKDemo */,
 				8FE2FCE81FD67A1200C35058 /* FDChouQinSDKDemo */,
 				8FA859F01FD7DCFE00386491 /* FDiToolsSDKDemo */,
+				8F3302A21FD7F8DF00888333 /* FDLongYouSDKDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -2064,6 +2180,19 @@
 				8F147FAF1FD552AF00BAAC33 /* Main.storyboard in Resources */,
 				8F147FB01FD552AF00BAAC33 /* Assets.xcassets in Resources */,
 				8F147FB11FD552AF00BAAC33 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3302A11FD7F8DF00888333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3302BC1FD7F91F00888333 /* Main.storyboard in Resources */,
+				8F3302D91FD7F96300888333 /* YDAccountResource.bundle in Resources */,
+				8F3302DA1FD7F96300888333 /* YDTool.bundle in Resources */,
+				8F3302BD1FD7F91F00888333 /* Assets.xcassets in Resources */,
+				8F3302D01FD7F96300888333 /* IQKeyboardManager.bundle in Resources */,
+				8F3302BE1FD7F91F00888333 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2266,6 +2395,16 @@
 				8F147FAC1FD552A900BAAC33 /* AppDelegate.mm in Sources */,
 				8F147FAD1FD552A900BAAC33 /* ViewController.m in Sources */,
 				8F147FAE1FD552A900BAAC33 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F33029F1FD7F8DF00888333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3302B91FD7F91800888333 /* AppDelegate.mm in Sources */,
+				8F3302BA1FD7F91800888333 /* ViewController.m in Sources */,
+				8F3302BB1FD7F91800888333 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2948,6 +3087,82 @@
 			};
 			name = Release;
 		};
+		8F3302B61FD7F8DF00888333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3VDBFX7X94;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FDLongYouSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/LongYouSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lieyancs.yywx.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bfb907f7-f855-45cb-a86e-8ae2d9b24f6e";
+				PROVISIONING_PROFILE_SPECIFIER = lycs_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F3302B71FD7F8DF00888333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3VDBFX7X94;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FDLongYouSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/LongYouSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lieyancs.yywx.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bfb907f7-f855-45cb-a86e-8ae2d9b24f6e";
+				PROVISIONING_PROFILE_SPECIFIER = lycs_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8F42F7B31F9F3D4300283FC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3576,6 +3791,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8F3302B81FD7F8DF00888333 /* Build configuration list for PBXNativeTarget "FDLongYouSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3302B61FD7F8DF00888333 /* Debug */,
+				8F3302B71FD7F8DF00888333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8F42F7B21F9F3D4300283FC6 /* Build configuration list for PBXNativeTarget "FDYXMSDKDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3646,6 +3870,7 @@
 				8FA85A061FD7DCFE00386491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FAB803C1FB6924A00076DF0 /* Build configuration list for PBXNativeTarget "FDLYSDKDemo" */ = {
 			isa = XCConfigurationList;
