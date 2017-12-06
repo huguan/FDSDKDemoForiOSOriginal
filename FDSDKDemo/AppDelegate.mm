@@ -137,14 +137,20 @@
     //在GTSPGame.plist中填写相关参数
     
     // 设置酬勤SDK参数
-    FDChouQinSDKInitModel *chouQinSDKInitModel = [FDChouQinSDKInitModel new];
-    chouQinSDKInitModel.chouQinGameID = 52004;
-    chouQinSDKInitModel.chouQinAppKey = @"16A443597452BAA964AD071FBC35203F";
-    chouQinSDKInitModel.chouQinChannelID = 520040902;
-    [[FDSDKParameters sharedHGSDKParameters] setChouQinSDKInitModel:chouQinSDKInitModel];
+//    FDChouQinSDKInitModel *chouQinSDKInitModel = [FDChouQinSDKInitModel new];
+//    chouQinSDKInitModel.chouQinGameID = 52004;
+//    chouQinSDKInitModel.chouQinAppKey = @"16A443597452BAA964AD071FBC35203F";
+//    chouQinSDKInitModel.chouQinChannelID = 520040902;
+//    [[FDSDKParameters sharedHGSDKParameters] setChouQinSDKInitModel:chouQinSDKInitModel];
+    
+    // 设置iToolsSDK参数
+    FDiToolsSDKInitModel *iToolsSDKInitModel = [FDiToolsSDKInitModel new];
+    [iToolsSDKInitModel setIToolsAppID:2949];
+    [iToolsSDKInitModel setIToolsAppKey:@"2DF795B877659AF1AE73BC3607472CB0"];
+    [[FDSDKParameters sharedHGSDKParameters] setIToolsSDKInitModel:iToolsSDKInitModel];
     
     //根据Type初始化不同的SDK
-    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDChouQinPlatform];
+    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDiToolsPlatform];
     [[FDSDK sharedInstance] fdInitWithSDKParameters:[FDSDKParameters sharedHGSDKParameters]];
     
     [[FDSDK sharedInstance] fdApplication:application didFinishLaunchingWithOptions:launchOptions];
@@ -176,9 +182,9 @@
     [[FDSDK sharedInstance] fdApplicationWillResignActive:application];
 }
 
-- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler {
-    return [[FDSDK sharedInstance] fdApplication:application continueUserActivity:userActivity restorationHandler:restorationHandler];
-}
+//- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler {
+//    return [[FDSDK sharedInstance] fdApplication:application continueUserActivity:userActivity restorationHandler:restorationHandler];
+//}
 
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {

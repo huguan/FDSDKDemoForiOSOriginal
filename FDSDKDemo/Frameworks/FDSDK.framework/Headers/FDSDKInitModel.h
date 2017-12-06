@@ -193,21 +193,17 @@
 @end
 
 /**
- *   酬勤（红文SDK）初始化参数对象
+ *   iToolsSDK初始化参数对象
  */
-@interface FDChouQinSDKInitModel : NSObject
+@interface FDiToolsSDKInitModel : NSObject
 
-// 酬勤 GameID
-@property(nonatomic) int chouQinGameID;
+// iTools的appid
+@property(nonatomic) int iToolsAppID;
 
-// 酬勤 AppKey
-@property(nonatomic, copy) NSString *chouQinAppKey;
-
-// 酬勤 ChannalID
-@property(nonatomic) int chouQinChannelID;
+// iTools的appkey
+@property(nonatomic, copy) NSString *iToolsAppKey;
 
 @end
-
 
 
 
