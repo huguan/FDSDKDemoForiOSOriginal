@@ -190,20 +190,27 @@
 
 // 雪糕 xgVersion
 @property(nonatomic, copy) NSString *xgVersion;
+
 @end
+
 
 /**
- *   龙游SDK初始化参数对象
+ *   创星SDK初始化参数对象
  */
-@interface FDLongYouSDKInitModel : NSObject
+@interface FDChuangXingInitModel : NSObject
 
-// 龙游 AppID
-@property(nonatomic, copy) NSString *longYouAppID;
+// appid
+@property(nonatomic, copy) NSString *appId;
 
-// 龙游 OpenKey
-@property(nonatomic, copy) NSString *longYouOpenKey;
+// appKey
+@property(nonatomic, copy) NSString *appKey;
+
+// appScheme
+@property(nonatomic, copy) NSString *appScheme;
 
 @end
+
+
 
 
 

@@ -122,10 +122,10 @@
     [[FDSDKParameters sharedHGSDKParameters] setXgSDKInitModel:xgSDKInitModel];
     
     // 设置创星SDK参数
-//    FDChuangXingInitModel *chuangXingInitModel =  [FDChuangXingInitModel new];
-//    chuangXingInitModel.appId = @"219";
-//    chuangXingInitModel.appKey = @"b0d0bd1f96528044b0751ca54b1cff58";
-//    [[FDSDKParameters sharedHGSDKParameters] setChuangXingSDKInitModel:chuangXingInitModel];
+    FDChuangXingInitModel *chuangXingInitModel =  [FDChuangXingInitModel new];
+    chuangXingInitModel.appId = @"219";
+    chuangXingInitModel.appKey = @"b0d0bd1f96528044b0751ca54b1cff58";
+    [[FDSDKParameters sharedHGSDKParameters] setChuangXingSDKInitModel:chuangXingInitModel];
 
     
     // 设置指尖SDK初始化参数
@@ -150,13 +150,13 @@
 //    [[FDSDKParameters sharedHGSDKParameters] setIToolsSDKInitModel:iToolsSDKInitModel];
     
     // 设置龙游SDK参数
-    FDLongYouSDKInitModel *longYouSDKInitModel = [FDLongYouSDKInitModel new];
-    longYouSDKInitModel.longYouAppID = @"AC18F649C5BDAA91336ACE03A9A6AAAB7";
-    longYouSDKInitModel.longYouOpenKey = @"328e48d99490514d6c4b5cdc8ec32cc8";
-    [[FDSDKParameters sharedHGSDKParameters] setLongYouSDKInitModel:longYouSDKInitModel];
+//    FDLongYouSDKInitModel *longYouSDKInitModel = [FDLongYouSDKInitModel new];
+//    longYouSDKInitModel.longYouAppID = @"AC18F649C5BDAA91336ACE03A9A6AAAB7";
+//    longYouSDKInitModel.longYouOpenKey = @"328e48d99490514d6c4b5cdc8ec32cc8";
+//    [[FDSDKParameters sharedHGSDKParameters] setLongYouSDKInitModel:longYouSDKInitModel];
     
     //根据Type初始化不同的SDK
-    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDLongYouPlatform];
+    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDChuangXingPlatform];
     [[FDSDK sharedInstance] fdInitWithSDKParameters:[FDSDKParameters sharedHGSDKParameters]];
     
     [[FDSDK sharedInstance] fdApplication:application didFinishLaunchingWithOptions:launchOptions];
