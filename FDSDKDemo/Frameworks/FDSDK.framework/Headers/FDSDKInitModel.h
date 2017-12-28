@@ -11,24 +11,24 @@
 @interface FDHgSDKInitModel : NSObject
 
 /**
- *  互冠gameId
+ *  互冠gameID
  */
-@property (nonatomic, strong) NSString *gameId;
+@property (nonatomic, strong) NSString *gameID;
 
 /**
- *  互冠secretKey
+ *  互冠payKey
  */
-@property (nonatomic, strong) NSString *secretKey;
+@property (nonatomic, strong) NSString *payKey;
 
 /**
- *  互冠cpId
+ *  互冠appKey
  */
-@property (nonatomic, strong) NSString *cpId;
+@property (nonatomic, strong) NSString *appKey;
 
 /**
- *  互冠channelId
+ *  互冠subID(我方未提供默认可传@"0")
  */
-@property (nonatomic, strong) NSString *channelId;
+@property (nonatomic, strong) NSString *subID;
 
 /**
  *  微信分享ID
@@ -45,165 +45,14 @@
  */
 @property (nonatomic, strong) NSString *deAppId;
 
-@end
-
-@interface FDLySDKInitModel : NSObject
-
 /**
- *  麟游产品id
+ *  互冠ttAppId
  */
-@property(nonatomic, strong) NSString*      productId;
-
-/**
- *  麟游互动signkey
- */
-@property(nonatomic, strong) NSString*  linnyouKey;
-
-/**
- *  麟游channelId
- */
-@property (nonatomic, strong) NSString *channelId;
-
+@property (nonatomic, strong) NSString *ttAppId;
 
 @end
 
-@interface FDLoSDKInitModel : NSObject
-/**
- *  94玩Appid
- */
-@property(nonatomic, strong) NSString *appId;
-/**
- *  94玩Appkey
- */
-@property(nonatomic, strong) NSString *appKey;
-/**
- *  94玩hotKey
- */
-@property (nonatomic, strong) NSString *hotKey;
 
-@end
-
-@interface FDLLSDKInitModel : NSObject
-/**
- *  另类appId
- */
-@property(nonatomic, strong) NSString *appId;
-
-
-@end
-
-@interface FDQTSDKInitModel : NSObject
-/**
- *  奇天appId
- */
-@property(nonatomic, strong) NSString *appId;
-/**
- *  奇天appKey
- */
-@property(nonatomic, strong) NSString *appKey;
-
-@end
-@interface FDEYSDKInitModel : NSObject
-/**
- *  29游appId
- */
-@property(nonatomic, strong) NSString *appId;
-/**
- *  29游appKey
- */
-@property(nonatomic, strong) NSString *appKey;
-/**
- *  29游subChannelId
- */
-@property(nonatomic, strong) NSString *subChannelId;
-
-/**
- *  29游 爱贝appid
- */
-@property(nonatomic, strong) NSString *abAppId;
-
-@end
-
-@interface FDMKSDKInitModel : NSObject
-/**
- *  悠扬gameId
- */
-@property(nonatomic, strong) NSString *gameId;
-/**
- *  悠扬subGameId
- */
-@property(nonatomic, strong) NSString *subGameId;
-/**
- *  悠扬secretKey
- */
-@property(nonatomic, strong) NSString *secretKey;
-/**
- *  悠扬 热云运营ID
- */
-@property(nonatomic, strong) NSString *ryAppId;
-/**
- *  悠扬 热云广告KEY
- */
-@property(nonatomic, strong) NSString *ryKey;
-/**
- *  悠扬 热云渠道ID
- */
-@property(nonatomic, strong) NSString *ryChannelID;
-
-@end
-
-/**
- *  游戏猫初始化参数
- */
-@interface FDYXMSDKInitModel : NSObject
-
-// 游戏猫 环境标识（@"3" = 联调，@"5" = 线上）
-@property(nonatomic, copy) NSString *yxmEnvironment;
-
-// 游戏猫 游戏ID
-@property(nonatomic, copy) NSString *yxmGameID;
-
-// 游戏猫 aesKey
-@property(nonatomic, copy) NSString *yxmAesKey;
-
-// 游戏猫 appKey
-@property(nonatomic, copy) NSString *yxmAppKey;
-
-// 游戏猫 chlId
-@property(nonatomic, copy) NSString *yxmChlID;
-@end
-
-
-/**
- *   雪糕SDK初始化参数对象
- */
-@interface FDXGSDKInitModel : NSObject
-
-// 雪糕 xgChannel
-@property(nonatomic, copy) NSString *xgChannel;
-
-// 雪糕 xgAppid
-@property(nonatomic, copy) NSString *xgAppid;
-
-// 雪糕 xgKey
-@property(nonatomic, copy) NSString *xgKey;
-
-// 雪糕 xgVersion
-@property(nonatomic, copy) NSString *xgVersion;
-@end
-
-/**
- *   龙游SDK初始化参数对象
- */
-@interface FDLongYouSDKInitModel : NSObject
-
-// 龙游 AppID
-@property(nonatomic, copy) NSString *longYouAppID;
-
-// 龙游 OpenKey
-@property(nonatomic, copy) NSString *longYouOpenKey;
-
-@end
 
 
 

@@ -11,6 +11,7 @@
 #import "HGSDKParameters.h"
 #import "HGOrderModel.h"
 #import "HGUserModel.h"
+#import "HGRole.h"
 
 
 //! Project version number for HGSDK.
@@ -23,8 +24,8 @@ FOUNDATION_EXPORT const unsigned char HGSDKVersionString[];
 
 
 typedef enum {
-    HGUserNotLogin                     = 10
-}HGSDKErrorFailed;
+    HGUserNotLogin = 10
+} HGSDKErrorFailed;
 
 @class HGSDKParameters;
 @class HGUserModel;
@@ -44,10 +45,14 @@ typedef void (^logoutBlock)();
 + (HGSDK *)sharedHGSDK;
 
 
-@property (nonatomic, strong) NSString *currentSessionId;
+@property (nonatomic, strong) NSString *currentToken;
 @property (nonatomic, strong) NSString *currentUserName;
-@property (nonatomic, strong) NSString *currentUserMobile;
 @property (nonatomic, strong) NSString *currentUserId;
+@property (nonatomic, strong) NSString *currentChannelId;
+@property (nonatomic, strong) NSString *currentUserPhone;
+@property (nonatomic, strong) NSString *currentVM;
+
+
 @property (nonatomic, strong) NSString *currentService;
 
 @property (nonatomic, copy, readonly) loginSuccessBlock loginSuccessBlock;
@@ -78,7 +83,13 @@ typedef void (^logoutBlock)();
  */
 - (void)hgLogin:(loginSuccessBlock)successBlock;
 
-
+/**
+ *  游戏在创建角色的时候调用一次
+ *
+ *  @param name 角色名
+ */
+- (void)hgOnCreateRole:(NSString *)name;
+- (void)hgReportRole:(HGRole *)role;
 /**
  *  支付
  *
@@ -91,20 +102,22 @@ typedef void (^logoutBlock)();
  */
 - (void)hgLogOut;
 
+
 /**
- *  游戏在创建角色的时候调用一次
- *
- *  @param name 角色名
- */
-- (void)hgOnCreateRole:(NSString *)name;
-/**
- *  第三方应用跳转
+ *  tp应用跳转
  *
  *  @param url url
  *
  *  @return
  */
 - (BOOL)handleOpenURL:(NSURL *)url;
+
++ (void)showFloatWindow;
+
++ (void)hiddenFloatWindow;
+
+// 获取SDK版本
++ (NSString *)sdkVersion;
 
 @end
 

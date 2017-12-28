@@ -6,11 +6,11 @@
 //  Copyright © 2016年 熙文 张. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, HGPayWay) {
-    HGPayWayByIAP   = 1,              //苹果支付
-    HGPayWayByThird = 2               //第三方支付
+typedef NS_ENUM(NSInteger, HGPWType) {
+    HGPWByIAP   = 1,              
+    HGPWByThird = 2
 };
 
 
@@ -25,7 +25,7 @@ typedef NS_ENUM(NSInteger, HGPayWay) {
 /**
  *  金额
  */
-@property (nonatomic, assign) int amount;
+@property (nonatomic, assign) CGFloat amount;
 
 /**
  *  角色Id
@@ -50,7 +50,7 @@ typedef NS_ENUM(NSInteger, HGPayWay) {
 /**
  *  商品描述
  */
-@property (nonatomic, strong) NSString *hgProductDescription;
+@property (nonatomic, strong) NSString *productDescription;
 
 /**
  *  订单号
@@ -60,13 +60,12 @@ typedef NS_ENUM(NSInteger, HGPayWay) {
 /**
  *  自定义信息
  */
-@property (nonatomic, strong) NSString *hgCustomInfo;
+@property (nonatomic, strong) NSString *customInfo;
 
 /**
  *  订单信息
  */
 @property (nonatomic, strong) NSString *orderInfo;
-
 
 - (void)setCustomInfo:(NSString *)customInfo;
 

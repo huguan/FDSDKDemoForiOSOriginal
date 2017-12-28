@@ -12,6 +12,7 @@
 
 @interface MyHttpUrl : NSObject
 
+@property(nonatomic,retain) NSString*  myUrl;
 
 +(id)shard;
 
@@ -25,6 +26,7 @@
 -(void) setAppKey : (NSString *) appKey;
 -(void) setServerId : (NSString *) serverId;
 -(void) setTapBackgroundHideView : (BOOL) hidden;
+-(void) setMoreViewHide: (BOOL)hidden;
 -(void) setAppUrlScheme: (NSString *) appUrlScheme;
 
 -(void) setReYunKey : (NSString *) appKey;
@@ -45,6 +47,21 @@
  */
 -(NSNumber *) getCurrentMemberId;
 
+
+/**
+ *  CP端需传入的角色信息(在游戏进入后调用此方法)
+ *
+ *  @param roleId    玩家角色id,cp传入，数字，必须。
+ *  @param roleName  玩家角色名，cp传入。
+ *  @param roleLevel 玩家角色等级，数字。
+ *  @param sid       服务器id,数字，必须。
+ *  @param sName     服务器名称。
+ *  @param vip       玩家角色vip 等级，数字。
+ *  @param yuanbao   玩家剩余元宝数。
+ *  @param uid       44755平台用户id
+ */
+-(void)uploadRoleInfoWithRoleId:(NSString *)roleId AndRoleName:(NSString *)roleName AndRoleLevel:(NSString *)roleLevel AndServerId:(NSString *)sid AndServerName:(NSString *)sName AndVip:(NSString *)vip AndYuanBao:(NSString *)yuanbao AndUserId:(NSString *)uid;
+
 /**
  *  获取用户token号
  *
@@ -60,6 +77,7 @@
  */
 -(void) QTLogout;
 -(void)isShowQTHelper:(BOOL)isShow;
+
 
 //- (void)QTShow;
 
@@ -79,6 +97,10 @@
 // save current game and server id
 -(void) saveCurrentGameInfo;
 
+/**
+ *  创建悬浮窗Assistive touch
+ */
+//- (void)createAssistiveTouchWithWindow;
 
 /**
  *

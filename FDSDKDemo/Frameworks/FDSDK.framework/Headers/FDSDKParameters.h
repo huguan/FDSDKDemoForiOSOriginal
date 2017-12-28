@@ -21,8 +21,7 @@ typedef NS_ENUM(NSInteger, FDPlatformType) {
     FDMKPlatform      = 8,          //悠扬
     FDYXMPlatform     = 9,          //游戏猫
     FDSGPlatform      = 10,         //数果
-    FDXGPlatform      = 11,          // 雪糕
-    FDLongYouPlatform      = 12          // 龙游
+    FDXGPlatform      = 11          // 雪糕
 };
 
 @interface FDSDKParameters : NSObject
@@ -38,48 +37,6 @@ typedef NS_ENUM(NSInteger, FDPlatformType) {
  *  互冠SDK初始化参数对象
  */
 @property (nonatomic, strong) FDHgSDKInitModel *hgSDKInitModel;
-
-/**
- *  麟游SDK初始化参数对象
- */
-@property (nonatomic, strong) FDLySDKInitModel *lySDKInitModel;
-/**
- *  94玩SDK初始化参数对象
- */
-@property (nonatomic, strong) FDLoSDKInitModel *loSDKInitModel;
-
-/**
- *  另类SDK初始化参数对象
- */
-@property (nonatomic, strong) FDLLSDKInitModel *llSDKInitModel;
-/**
- *  奇天SDK初始化参数对象
- */
-@property (nonatomic, strong) FDQTSDKInitModel *qtSDKInitModel;
-
-/**
- *  29游SDK初始化参数对象
- */
-@property (nonatomic, strong) FDEYSDKInitModel *eySDKInitModel;
-/**
- *  悠扬SDK初始化参数对象
- */
-@property (nonatomic, strong) FDMKSDKInitModel *mkSDKInitModel;
-
-/**
- *  游戏猫SDK初始化参数对象
- */
-@property (nonatomic, strong) FDYXMSDKInitModel *yxmSDKInitModel;
-
-/**
- *   雪糕SDK初始化参数对象
- */
-@property (nonatomic, strong)  FDXGSDKInitModel *xgSDKInitModel;
-
-/**
- *   龙游SDK初始化参数对象
- */
-@property (nonatomic, strong)  FDLongYouSDKInitModel *longYouSDKInitModel;
 
 /**
  *  SDK初始化渠道

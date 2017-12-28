@@ -228,6 +228,8 @@
 		8F76B4881FA0635F003477F6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC1B1E30603F0082BA72 /* Security.framework */; };
 		8F76B4891FA06368003477F6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC271E3063E50082BA72 /* AdSupport.framework */; };
 		8F76B48B1FA06626003477F6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC6F20D1EBB262700AA2C8A /* StoreKit.framework */; };
+		8F7B50251FEBB079008083EB /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		8F7B50261FEBB079008083EB /* FDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8F81E1661FA09A5500108222 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D71E2DC06F00458FDA /* AppDelegate.mm */; };
 		8F81E1671FA09A5500108222 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107DA1E2DC06F00458FDA /* ViewController.m */; };
 		8F81E1681FA09A5500108222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D41E2DC06F00458FDA /* main.m */; };
@@ -265,6 +267,19 @@
 		8F8445AD1FA033B000746ACB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC171E3060370082BA72 /* SystemConfiguration.framework */; };
 		8F8445AE1FA033B600746ACB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC191E30603B0082BA72 /* CFNetwork.framework */; };
 		8F8445AF1FA033BC00746ACB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC6F20D1EBB262700AA2C8A /* StoreKit.framework */; };
+		8F9103131FF4E3DC005D399A /* libDataEyeTracking_v1.9.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9102FD1FF4E3DC005D399A /* libDataEyeTracking_v1.9.4.a */; };
+		8F9103141FF4E3DC005D399A /* libGDTTrackSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9103001FF4E3DC005D399A /* libGDTTrackSDK.a */; };
+		8F9103151FF4E3DC005D399A /* libTalkingDataAppCpa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9103021FF4E3DC005D399A /* libTalkingDataAppCpa.a */; };
+		8F9103161FF4E3DC005D399A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9103071FF4E3DC005D399A /* FMDatabase.m */; };
+		8F9103171FF4E3DC005D399A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9103091FF4E3DC005D399A /* FMDatabaseAdditions.m */; };
+		8F9103181FF4E3DC005D399A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91030B1FF4E3DC005D399A /* FMDatabasePool.m */; };
+		8F9103191FF4E3DC005D399A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91030D1FF4E3DC005D399A /* FMDatabaseQueue.m */; };
+		8F91031A1FF4E3DC005D399A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9103101FF4E3DC005D399A /* FMResultSet.m */; };
+		8F91031B1FF4E3DC005D399A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F9103111FF4E3DC005D399A /* Info.plist */; };
+		8F91031C1FF4E3DC005D399A /* TTTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9103121FF4E3DC005D399A /* TTTracker.framework */; };
+		8F91031D1FF4E564005D399A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446AC1F1E3060710082BA72 /* libsqlite3.tbd */; };
+		8F91031E1FF4E581005D399A /* FDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; };
+		8F91031F1FF4E581005D399A /* FDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C34F9141FD52CC00011923F /* FDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8FA85A081FD7DD2A00386491 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D71E2DC06F00458FDA /* AppDelegate.mm */; };
 		8FA85A091FD7DD2A00386491 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107DA1E2DC06F00458FDA /* ViewController.m */; };
 		8FA85A0A1FD7DD2A00386491 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A107D41E2DC06F00458FDA /* main.m */; };
@@ -455,6 +470,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				8F81E1751FA09B2500108222 /* HGSDK.framework in Embed Frameworks */,
+				8F91031F1FF4E581005D399A /* FDSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +492,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				8F7B50261FEBB079008083EB /* FDSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -708,6 +725,25 @@
 		8F8445A11FA0332500746ACB /* QitianFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QitianFramework.framework; sourceTree = "<group>"; };
 		8F8445A71FA0339300746ACB /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 		8F8445A91FA0339A00746ACB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8F9102FC1FF4E3DB005D399A /* DCTrackingAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTrackingAgent.h; sourceTree = "<group>"; };
+		8F9102FD1FF4E3DC005D399A /* libDataEyeTracking_v1.9.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDataEyeTracking_v1.9.4.a; sourceTree = "<group>"; };
+		8F9102FF1FF4E3DC005D399A /* GDTTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTTrack.h; sourceTree = "<group>"; };
+		8F9103001FF4E3DC005D399A /* libGDTTrackSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGDTTrackSDK.a; sourceTree = "<group>"; };
+		8F9103021FF4E3DC005D399A /* libTalkingDataAppCpa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTalkingDataAppCpa.a; sourceTree = "<group>"; };
+		8F9103031FF4E3DC005D399A /* TalkingDataAppCpa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkingDataAppCpa.h; sourceTree = "<group>"; };
+		8F9103061FF4E3DC005D399A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		8F9103071FF4E3DC005D399A /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		8F9103081FF4E3DC005D399A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		8F9103091FF4E3DC005D399A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		8F91030A1FF4E3DC005D399A /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		8F91030B1FF4E3DC005D399A /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		8F91030C1FF4E3DC005D399A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		8F91030D1FF4E3DC005D399A /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		8F91030E1FF4E3DC005D399A /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		8F91030F1FF4E3DC005D399A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		8F9103101FF4E3DC005D399A /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		8F9103111FF4E3DC005D399A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9103121FF4E3DC005D399A /* TTTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TTTracker.framework; sourceTree = "<group>"; };
 		8FA66CE91EF92411000DD922 /* libMobileGestalt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileGestalt.tbd; path = usr/lib/libMobileGestalt.tbd; sourceTree = SDKROOT; };
 		8FA859F11FD7DCFE00386491 /* FDiToolsSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDiToolsSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA85A041FD7DCFE00386491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -910,9 +946,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F91031D1FF4E564005D399A /* libsqlite3.tbd in Frameworks */,
+				8F91031E1FF4E581005D399A /* FDSDK.framework in Frameworks */,
+				8F9103131FF4E3DC005D399A /* libDataEyeTracking_v1.9.4.a in Frameworks */,
+				8F9103151FF4E3DC005D399A /* libTalkingDataAppCpa.a in Frameworks */,
 				8F81E1741FA09B2500108222 /* HGSDK.framework in Frameworks */,
+				8F9103141FF4E3DC005D399A /* libGDTTrackSDK.a in Frameworks */,
 				0C34F91A1FD52CC00011923F /* FDSDK.framework in Frameworks */,
 				8F81E16F1FA09AB400108222 /* HGSDK.framework in Frameworks */,
+				8F91031C1FF4E3DC005D399A /* TTTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -935,6 +977,7 @@
 				8F8445AC1FA033A900746ACB /* MobileCoreServices.framework in Frameworks */,
 				8F8445AB1FA033A100746ACB /* CoreGraphics.framework in Frameworks */,
 				8F8445AA1FA0339A00746ACB /* libsqlite3.0.tbd in Frameworks */,
+				8F7B50251FEBB079008083EB /* FDSDK.framework in Frameworks */,
 				8F8445A81FA0339300746ACB /* libz.1.2.5.tbd in Frameworks */,
 				0C34F9181FD52CC00011923F /* FDSDK.framework in Frameworks */,
 				8F8445A61FA0338A00746ACB /* CoreTelephony.framework in Frameworks */,
@@ -1533,6 +1576,7 @@
 		8F81E16C1FA09AB400108222 /* HGSDK */ = {
 			isa = PBXGroup;
 			children = (
+				8F9102FA1FF4E3DB005D399A /* DataSDK */,
 				8F81E16D1FA09AB400108222 /* HGSDK.framework */,
 				8F81E16E1FA09AB400108222 /* HGSDK.xcassets */,
 			);
@@ -1571,6 +1615,72 @@
 				8F8445A11FA0332500746ACB /* QitianFramework.framework */,
 			);
 			path = QTSDK;
+			sourceTree = "<group>";
+		};
+		8F9102FA1FF4E3DB005D399A /* DataSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8F9102FB1FF4E3DB005D399A /* DataEyeTracking */,
+				8F9102FE1FF4E3DC005D399A /* GDTSDK */,
+				8F9103011FF4E3DC005D399A /* TalkingData */,
+				8F9103041FF4E3DC005D399A /* TTTracker */,
+			);
+			path = DataSDK;
+			sourceTree = "<group>";
+		};
+		8F9102FB1FF4E3DB005D399A /* DataEyeTracking */ = {
+			isa = PBXGroup;
+			children = (
+				8F9102FC1FF4E3DB005D399A /* DCTrackingAgent.h */,
+				8F9102FD1FF4E3DC005D399A /* libDataEyeTracking_v1.9.4.a */,
+			);
+			path = DataEyeTracking;
+			sourceTree = "<group>";
+		};
+		8F9102FE1FF4E3DC005D399A /* GDTSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8F9102FF1FF4E3DC005D399A /* GDTTrack.h */,
+				8F9103001FF4E3DC005D399A /* libGDTTrackSDK.a */,
+			);
+			path = GDTSDK;
+			sourceTree = "<group>";
+		};
+		8F9103011FF4E3DC005D399A /* TalkingData */ = {
+			isa = PBXGroup;
+			children = (
+				8F9103021FF4E3DC005D399A /* libTalkingDataAppCpa.a */,
+				8F9103031FF4E3DC005D399A /* TalkingDataAppCpa.h */,
+			);
+			path = TalkingData;
+			sourceTree = "<group>";
+		};
+		8F9103041FF4E3DC005D399A /* TTTracker */ = {
+			isa = PBXGroup;
+			children = (
+				8F9103051FF4E3DC005D399A /* fmdb */,
+				8F9103121FF4E3DC005D399A /* TTTracker.framework */,
+			);
+			path = TTTracker;
+			sourceTree = "<group>";
+		};
+		8F9103051FF4E3DC005D399A /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				8F9103061FF4E3DC005D399A /* FMDatabase.h */,
+				8F9103071FF4E3DC005D399A /* FMDatabase.m */,
+				8F9103081FF4E3DC005D399A /* FMDatabaseAdditions.h */,
+				8F9103091FF4E3DC005D399A /* FMDatabaseAdditions.m */,
+				8F91030A1FF4E3DC005D399A /* FMDatabasePool.h */,
+				8F91030B1FF4E3DC005D399A /* FMDatabasePool.m */,
+				8F91030C1FF4E3DC005D399A /* FMDatabaseQueue.h */,
+				8F91030D1FF4E3DC005D399A /* FMDatabaseQueue.m */,
+				8F91030E1FF4E3DC005D399A /* FMDB.h */,
+				8F91030F1FF4E3DC005D399A /* FMResultSet.h */,
+				8F9103101FF4E3DC005D399A /* FMResultSet.m */,
+				8F9103111FF4E3DC005D399A /* Info.plist */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 		8FA859F21FD7DCFE00386491 /* FDiToolsSDKDemo */ = {
@@ -2251,6 +2361,7 @@
 				8F81E1691FA09A5C00108222 /* Main.storyboard in Resources */,
 				8F81E16A1FA09A5C00108222 /* Assets.xcassets in Resources */,
 				8F81E16B1FA09A5C00108222 /* LaunchScreen.storyboard in Resources */,
+				8F91031B1FF4E3DC005D399A /* Info.plist in Resources */,
 				8F81E1701FA09AB400108222 /* HGSDK.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2486,8 +2597,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F81E1661FA09A5500108222 /* AppDelegate.mm in Sources */,
+				8F9103181FF4E3DC005D399A /* FMDatabasePool.m in Sources */,
 				8F81E1671FA09A5500108222 /* ViewController.m in Sources */,
+				8F9103191FF4E3DC005D399A /* FMDatabaseQueue.m in Sources */,
 				8F81E1681FA09A5500108222 /* main.m in Sources */,
+				8F9103161FF4E3DC005D399A /* FMDatabase.m in Sources */,
+				8F91031A1FF4E3DC005D399A /* FMResultSet.m in Sources */,
+				8F9103171FF4E3DC005D399A /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3418,15 +3534,22 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/HGSDK",
 					"$(PROJECT_DIR)/FDSDKDemo/Frameworks",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/HGSDK/DataSDK/TTTracker",
 				);
 				INFOPLIST_FILE = FDHGSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/HGSDK/DataSDK/DataEyeTracking",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/HGSDK/DataSDK/GDTSDK",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/HGSDK/DataSDK/TalkingData",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syzr.hg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "49be4726-1fde-4039-99a0-bf1c64af9a14";
-				PROVISIONING_PROFILE_SPECIFIER = syzrdev20171013new;
+				PROVISIONING_PROFILE = "7495914d-7a8f-489b-bec4-45e2fb4a6a21";
+				PROVISIONING_PROFILE_SPECIFIER = syzr.dev.20171122;
 			};
 			name = Debug;
 		};
@@ -3441,15 +3564,22 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/HGSDK",
 					"$(PROJECT_DIR)/FDSDKDemo/Frameworks",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/HGSDK/DataSDK/TTTracker",
 				);
 				INFOPLIST_FILE = FDHGSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/HGSDK/DataSDK/DataEyeTracking",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/HGSDK/DataSDK/GDTSDK",
+					"$(PROJECT_DIR)/FDSDKDemo/Frameworks/SDK/HGSDK/DataSDK/TalkingData",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syzr.hg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "49be4726-1fde-4039-99a0-bf1c64af9a14";
-				PROVISIONING_PROFILE_SPECIFIER = syzrdev20171013new;
+				PROVISIONING_PROFILE = "7495914d-7a8f-489b-bec4-45e2fb4a6a21";
+				PROVISIONING_PROFILE_SPECIFIER = syzr.dev.20171122;
 			};
 			name = Release;
 		};
@@ -3538,8 +3668,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syzr.hg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "49be4726-1fde-4039-99a0-bf1c64af9a14";
-				PROVISIONING_PROFILE_SPECIFIER = syzrdev20171013new;
+				PROVISIONING_PROFILE = "7495914d-7a8f-489b-bec4-45e2fb4a6a21";
+				PROVISIONING_PROFILE_SPECIFIER = syzr.dev.20171122;
 			};
 			name = Debug;
 		};
@@ -3560,8 +3690,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syzr.hg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "49be4726-1fde-4039-99a0-bf1c64af9a14";
-				PROVISIONING_PROFILE_SPECIFIER = syzrdev20171013new;
+				PROVISIONING_PROFILE = "7495914d-7a8f-489b-bec4-45e2fb4a6a21";
+				PROVISIONING_PROFILE_SPECIFIER = syzr.dev.20171122;
 			};
 			name = Release;
 		};

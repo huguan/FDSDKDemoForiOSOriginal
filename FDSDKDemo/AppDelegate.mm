@@ -46,80 +46,82 @@
     [[FDSDKParameters sharedHGSDKParameters] setDebug:NO];
     
     //设置悠扬SDK参数
-    FDMKSDKInitModel *mkSDKInitModel = [FDMKSDKInitModel new];
-    [mkSDKInitModel setGameId:@"12"];
-    [mkSDKInitModel setSubGameId:@"42"];
-    [mkSDKInitModel setSecretKey:@"7547b57caec4e47a7c9d867f00278fd6"];
-    [mkSDKInitModel setRyAppId:@"89f737db46c5f22a4b7d0d4872b3b29b"];
-    [mkSDKInitModel setRyKey:@"b8d028d4a7e6dc3f4b41bd42f91153d0"];
-    [mkSDKInitModel setRyChannelID:@"default"];
-    [[FDSDKParameters sharedHGSDKParameters] setMkSDKInitModel:mkSDKInitModel];
+//    FDMKSDKInitModel *mkSDKInitModel = [FDMKSDKInitModel new];
+//    [mkSDKInitModel setGameId:@"12"];
+//    [mkSDKInitModel setSubGameId:@"42"];
+//    [mkSDKInitModel setSecretKey:@"7547b57caec4e47a7c9d867f00278fd6"];
+//    [mkSDKInitModel setRyAppId:@"89f737db46c5f22a4b7d0d4872b3b29b"];
+//    [mkSDKInitModel setRyKey:@"b8d028d4a7e6dc3f4b41bd42f91153d0"];
+//    [mkSDKInitModel setRyChannelID:@"default"];
+//    [[FDSDKParameters sharedHGSDKParameters] setMkSDKInitModel:mkSDKInitModel];
     
     //设置29游SDK参数（测试）注意初始化参数测试为NO
-    FDEYSDKInitModel *eySDKInitModel = [FDEYSDKInitModel new];
-    [eySDKInitModel setAppId:@"1086"];
-    [eySDKInitModel setAppKey:@"4ef167e7ff94ab4dde018e"];
-    [eySDKInitModel setSubChannelId:@"10020370"];
-    [eySDKInitModel setAbAppId:@"301508258"];
-    [[FDSDKParameters sharedHGSDKParameters] setEySDKInitModel:eySDKInitModel];
+//    FDEYSDKInitModel *eySDKInitModel = [FDEYSDKInitModel new];
+//    [eySDKInitModel setAppId:@"1086"];
+//    [eySDKInitModel setAppKey:@"4ef167e7ff94ab4dde018e"];
+//    [eySDKInitModel setSubChannelId:@"10020370"];
+//    [eySDKInitModel setAbAppId:@"301508258"];
+//    [[FDSDKParameters sharedHGSDKParameters] setEySDKInitModel:eySDKInitModel];
     
     //设置奇天SDK参数
-    FDQTSDKInitModel *qtSDKInitModel =[FDQTSDKInitModel new];
-    [qtSDKInitModel setAppId:@"2652"];
-    [qtSDKInitModel setAppKey:@"3cdb79be66262043cd8c29eb7ebfaf6d"];
-    [[FDSDKParameters sharedHGSDKParameters] setQtSDKInitModel:qtSDKInitModel];
+//    FDQTSDKInitModel *qtSDKInitModel =[FDQTSDKInitModel new];
+//    [qtSDKInitModel setAppId:@"2652"];
+//    [qtSDKInitModel setAppKey:@"3cdb79be66262043cd8c29eb7ebfaf6d"];
+//    [[FDSDKParameters sharedHGSDKParameters] setQtSDKInitModel:qtSDKInitModel];
     
     // 设置互冠SDK参数
     FDHgSDKInitModel *hgSDKInitModel = [FDHgSDKInitModel new];
-    [hgSDKInitModel setGameId:@"156"];
-    [hgSDKInitModel setSecretKey:@"c4101654d52ca9907e4a889a8430afe5"];
-    [hgSDKInitModel setChannelId:@"0"];
-    [hgSDKInitModel setCpId:@"4"];
+    [hgSDKInitModel setGameID:@"8"];
+    [hgSDKInitModel setPayKey:@"bb4a3c615e02ffe2caef444177e9b87f"];
+    [hgSDKInitModel setSubID:@"0"];
+    [hgSDKInitModel setAppKey:@""];
+    
     [hgSDKInitModel setWxAppId:@"wx799c5867ea4dddd3"];
-    [hgSDKInitModel setTdAppId:@"B2F7C9A41E8F4DBBB2A2C8B128DE2407"];
-    [hgSDKInitModel setDeAppId:@"CAF2DA765A79D0A2794BD842457DB1648"];
+    [hgSDKInitModel setTdAppId:@"6B5AF5F6144848089896AA02F44D9991"];
+    [hgSDKInitModel setDeAppId:@"CDCBED5A6F5B3CD7DCC2EA53D98A66BEC"];
+    [hgSDKInitModel setTtAppId:@"10036"];
     [[FDSDKParameters sharedHGSDKParameters] setHgSDKInitModel:hgSDKInitModel];
     
     //设置麟游SDK参数
-    FDLySDKInitModel *lySDKInitModel = [FDLySDKInitModel new];
-    [lySDKInitModel setProductId:@"hazmios"];
-    [lySDKInitModel setLinnyouKey:@"f642ab59b1ce042f"];
-    [[FDSDKParameters sharedHGSDKParameters] setLySDKInitModel:lySDKInitModel];
+//    FDLySDKInitModel *lySDKInitModel = [FDLySDKInitModel new];
+//    [lySDKInitModel setProductId:@"hazmios"];
+//    [lySDKInitModel setLinnyouKey:@"f642ab59b1ce042f"];
+//    [[FDSDKParameters sharedHGSDKParameters] setLySDKInitModel:lySDKInitModel];
     
     //设置94玩SDK参数
-    FDLoSDKInitModel *loSDKInitModel = [FDLoSDKInitModel new];
-    [loSDKInitModel setAppId:@"1000240"];
-    [loSDKInitModel setAppKey:@"9461bf79c40aa3e6b36b3e1bb629295b"];
-    [loSDKInitModel setHotKey:@"120dbc21e748f17030d42b967a3b8c8a"];
-    [[FDSDKParameters sharedHGSDKParameters] setLoSDKInitModel:loSDKInitModel];
+//    FDLoSDKInitModel *loSDKInitModel = [FDLoSDKInitModel new];
+//    [loSDKInitModel setAppId:@"1000240"];
+//    [loSDKInitModel setAppKey:@"9461bf79c40aa3e6b36b3e1bb629295b"];
+//    [loSDKInitModel setHotKey:@"120dbc21e748f17030d42b967a3b8c8a"];
+//    [[FDSDKParameters sharedHGSDKParameters] setLoSDKInitModel:loSDKInitModel];
     
     //设置银狐SDK参数
     //在GameInfo.plist中填写相关参数
     
     //设置另类SDK参数
-    FDLLSDKInitModel *llSDKInitModel = [FDLLSDKInitModel new];
-    [llSDKInitModel setAppId:@"1019"];
-    [[FDSDKParameters sharedHGSDKParameters] setLlSDKInitModel:llSDKInitModel];
+//    FDLLSDKInitModel *llSDKInitModel = [FDLLSDKInitModel new];
+//    [llSDKInitModel setAppId:@"1019"];
+//    [[FDSDKParameters sharedHGSDKParameters] setLlSDKInitModel:llSDKInitModel];
     
     //设置游戏猫SDK参数
-    FDYXMSDKInitModel *yxmSDKInitModel = [FDYXMSDKInitModel new];
-    yxmSDKInitModel.yxmEnvironment = @"5";
-    yxmSDKInitModel.yxmGameID = @"henmeng_lieyanfengtian_1";
-    yxmSDKInitModel.yxmAesKey = @"eW91eGltYW80MTAwMDF4cw==";
-    yxmSDKInitModel.yxmAppKey = @"4100001";
-    yxmSDKInitModel.yxmChlID = @"4101";
-    [[FDSDKParameters sharedHGSDKParameters] setYxmSDKInitModel:yxmSDKInitModel];
+//    FDYXMSDKInitModel *yxmSDKInitModel = [FDYXMSDKInitModel new];
+//    yxmSDKInitModel.yxmEnvironment = @"5";
+//    yxmSDKInitModel.yxmGameID = @"henmeng_lieyanfengtian_1";
+//    yxmSDKInitModel.yxmAesKey = @"eW91eGltYW80MTAwMDF4cw==";
+//    yxmSDKInitModel.yxmAppKey = @"4100001";
+//    yxmSDKInitModel.yxmChlID = @"4101";
+//    [[FDSDKParameters sharedHGSDKParameters] setYxmSDKInitModel:yxmSDKInitModel];
     
     //设置数果SDK参数
     //在Info.plist中填写相关参数
     
     // 设置雪糕SDK参数
-    FDXGSDKInitModel *xgSDKInitModel = [FDXGSDKInitModel new];
-    xgSDKInitModel.xgChannel = @"zfdz";
-    xgSDKInitModel.xgAppid = @"10187";
-    xgSDKInitModel.xgKey = @"JoC2aJ0vH1XUs9kSKQFtZ3TY8ME2GacS";
-    xgSDKInitModel.xgVersion = @"1.0.0";
-    [[FDSDKParameters sharedHGSDKParameters] setXgSDKInitModel:xgSDKInitModel];
+//    FDXGSDKInitModel *xgSDKInitModel = [FDXGSDKInitModel new];
+//    xgSDKInitModel.xgChannel = @"zfdz";
+//    xgSDKInitModel.xgAppid = @"10187";
+//    xgSDKInitModel.xgKey = @"JoC2aJ0vH1XUs9kSKQFtZ3TY8ME2GacS";
+//    xgSDKInitModel.xgVersion = @"1.0.0";
+//    [[FDSDKParameters sharedHGSDKParameters] setXgSDKInitModel:xgSDKInitModel];
     
     // 设置创星SDK参数
 //    FDChuangXingInitModel *chuangXingInitModel =  [FDChuangXingInitModel new];
@@ -150,15 +152,16 @@
 //    [[FDSDKParameters sharedHGSDKParameters] setIToolsSDKInitModel:iToolsSDKInitModel];
     
     // 设置龙游SDK参数
-    FDLongYouSDKInitModel *longYouSDKInitModel = [FDLongYouSDKInitModel new];
-    longYouSDKInitModel.longYouAppID = @"AC18F649C5BDAA91336ACE03A9A6AAAB7";
-    longYouSDKInitModel.longYouOpenKey = @"328e48d99490514d6c4b5cdc8ec32cc8";
-    [[FDSDKParameters sharedHGSDKParameters] setLongYouSDKInitModel:longYouSDKInitModel];
+//    FDLongYouSDKInitModel *longYouSDKInitModel = [FDLongYouSDKInitModel new];
+//    longYouSDKInitModel.longYouAppID = @"AC18F649C5BDAA91336ACE03A9A6AAAB7";
+//    longYouSDKInitModel.longYouOpenKey = @"328e48d99490514d6c4b5cdc8ec32cc8";
+//    [[FDSDKParameters sharedHGSDKParameters] setLongYouSDKInitModel:longYouSDKInitModel];
     
     //根据Type初始化不同的SDK
-    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDLongYouPlatform];
+    [[FDSDKParameters sharedHGSDKParameters] setFdPlatformType:FDHGPlatform];
     [[FDSDK sharedInstance] fdInitWithSDKParameters:[FDSDKParameters sharedHGSDKParameters]];
     
+    // 下面这个接口需在设置完FdPlatformType后调用
     [[FDSDK sharedInstance] fdApplication:application didFinishLaunchingWithOptions:launchOptions];
     return YES;
 }
